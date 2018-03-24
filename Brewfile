@@ -90,13 +90,13 @@ cask 'opera'
 ##
 
 # Keybase.io digital signature manager
-brew 'keybase'
+# brew 'keybase'
 
 # 1password is a password manager
 cask '1password'
 
 # LastPass is a password manager
-cask 'lastpass'
+# cask 'lastpass'
 
 ##
 # Terminals
@@ -114,16 +114,16 @@ cask 'iterm2'
 #
 #     brew 'pkg-config' && brew link pkg-config && brew 'tmux'
 #
-brew 'tmux'
+# brew 'tmux'
 
 # tmate is a fork of tmux that makes screen sharing friendlier.
-brew 'tmate'
+# brew 'tmate'
 
 # Screen is an older terminal multiplexer.
-brew 'homebrew/dupes/screen'
+# brew 'homebrew/dupes/screen'
 
 # ngrok opens a secure tunnel to localhost
-brew 'ngrok'
+# brew 'ngrok'
 
 ##
 # Shells
@@ -147,7 +147,7 @@ brew 'zsh'
 brew 'fish'
 
 # Mobile Shell (MOSH) is like SSH plus roaming and smart echo.
-brew 'mobile-shell'
+# brew 'mobile-shell'
 
 ##
 # Editors
@@ -157,17 +157,17 @@ brew 'mobile-shell'
 ##
 
 # Vim editor
-brew 'vim'
+# brew 'vim'
 
 # MacVIM editor
-cask 'macvim'
+# cask 'macvim'
 
 # Emacs editor
-cask 'emacs'
+# cask 'emacs'
 
 # Emacs editor for Spacemacs
 # TODO: brew tap d12frosted/emacs-plus
-brew 'emacs-plus'
+# brew 'emacs-plus'
 # brew linkapps emacs-plus
 
 # Atom editor by GitHub
@@ -176,14 +176,17 @@ cask 'atom'
 # Sublime text editor
 cask 'sublime-text'
 
+# Visual Studio Code editor
+# cask 'visual-studio-code'
+
 # GNU Aspell is a free open source spell checker; compare `lspell`.
 #brew 'aspell --with-lang=en'
 
 # Enca - detect and convert encoding of text files
-brew 'enca'
+# brew 'enca'
 
 # MacTex: LaTeX document preparation system with high-quality typesetting.
-cask 'mactex'
+# cask 'mactex'
 
 ##
 # Downloaders
@@ -192,7 +195,7 @@ cask 'mactex'
 ##
 
 # Carthage is a simple, decentralized dependency manager for Cocoa
-brew 'carthage'
+# brew 'carthage'
 
 # Homebrew Cask extends Homebrew to install OS X applications and large binaries.
 brew 'cask'
@@ -250,18 +253,18 @@ brew 'git-now'
 brew 'git-url-sub'
 
 # SourceTree graphic client for git
-cask 'sourcetree'
+# cask 'sourcetree'
 
 # GitUp friendly Git interface and visualizer
-cask 'gitup'
+# cask 'gitup'
 
 # Mercurial version control system.
-brew 'hg'
+# brew 'hg'
 
 # Subversion version control system.
 #
 # TODO: brew 'sqlite' && brew 'subversion'
-brew 'subversion'
+# brew 'subversion'
 
 ##
 # GNU command line tools
@@ -286,28 +289,28 @@ brew 'subversion'
 ##
 
 # Basic file, shell and text manipulation utilities of the GNU operating system.
-brew 'coreutils'
+# brew 'coreutils'
 
-brew 'binutils'
-brew 'diffutils'
-brew 'ed'
-brew 'findutils'
-brew 'gawk'
-brew 'gnu-indent'
-brew 'gnu-sed'
-brew 'gnu-tar'
-brew 'gnu-which'
-brew 'gnutls'
-brew 'gzip'
-brew 'watch'
-brew 'wdiff'
+# brew 'binutils'
+# brew 'diffutils'
+# brew 'ed'
+# brew 'findutils'
+# brew 'gawk'
+# brew 'gnu-indent'
+# brew 'gnu-sed'
+# brew 'gnu-tar'
+# brew 'gnu-which'
+# brew 'gnutls'
+# brew 'gzip'
+# brew 'watch'
+# brew 'wdiff'
 
 ##
 # Some GNU command line tools already exist by default on OS X.
 # We choose to replace these with newer versions.
 ##
 
-brew 'gdb'  # gdb requires further actions to make it work. See `brew info gdb`.
+# brew 'gdb'  # gdb requires further actions to make it work. See `brew info gdb`.
 brew 'gpatch'
 brew 'less'
 brew 'm4'
@@ -321,29 +324,29 @@ brew 'nano'
 ##
 
 # Automake is a tool for automatically generating Makefile installation files.
-brew 'automake'
+# brew 'automake'
 
 # GNU Privacy Guard (GnuPG) provides encryption as a free replacement for PGP.
-brew 'gpg'
+# brew 'gpg'
 
 # OpenSSL is an open-source implementation of the SSL and TLS protocols.
 brew 'openssl'
 
 # pkg-config is a helper tool used when compiling applications and libraries.
-brew 'pkg-config && brew link pkg-config && brew install tmux'
+# brew 'pkg-config && brew link pkg-config && brew install tmux'
 
 # Functions for use by applications that allow users to edit command lines while typing.
-brew 'readline'
+# brew 'readline'
 
 # Parallel SSH
-brew 'pssh'
+# brew 'pssh'
 
 # pkg-config is a helper tool used when compiling applications and libraries.
-brew 'pkg-config'
+# brew 'pkg-config'
 
 # PCRE: Perl-compatible regular expressions, for better searching.
-brew 'pcre'
-brew 'pcre++'
+# brew 'pcre'
+# brew 'pcre++'
 
 ##
 # File compression/uncompression
@@ -352,13 +355,13 @@ brew 'pcre++'
 ##
 
 # Zstandard is the best modern compression
-brew 'zstd'
+# brew 'zstd'
 
 # WinRAR provides compression/decompression for RAR and ZIP files.
-brew 'unrar'
+# brew 'unrar'
 
 # unzip is the classic command.
-brew 'homebrew/dupes/unzip'
+# brew 'homebrew/dupes/unzip'
 
 ##
 # File synchronization
@@ -368,22 +371,22 @@ brew 'homebrew/dupes/unzip'
 ##
 
 # rsync is the classic unix file synchronizer.
-brew 'homebrew/dupes/rsync'
+# brew 'homebrew/dupes/rsync'
 
 # Unison is a high-level file synchronization utility.
-brew 'unison'
+# brew 'unison'
 
 # Syncthing is open source file sharing.
-brew 'syncthing'
+# brew 'syncthing'
 
 # Dropbox file sharing.
-cask 'dropbox'
+# cask 'dropbox'
 
 # Transmission bittorrent client.
-cask 'transmission'
+# cask 'transmission'
 
 # Box.com sync
-cask 'box-sync'
+# cask 'box-sync'
 
 ##
 # Text search
@@ -392,19 +395,19 @@ cask 'box-sync'
 ##
 
 # ripgrep is text search; we prefer it over grep, ag, git grep, ucg, pt, sift.
-brew 'https://raw.githubusercontent.com/BurntSushi/ripgrep/master/pkg/brew/ripgrep.rb'
+# brew 'https://raw.githubusercontent.com/BurntSushi/ripgrep/master/pkg/brew/ripgrep.rb'
 
 # grep is the classic searcher
 brew 'grep'
 
 # ag is "the silver searcher" search tool; retired by ripgrep.
-brew 'ag'
+# brew 'ag'
 
 # sift is like grep, plus faster and with more features; retired by ripgrep.
-brew install sift
+# brew install sift
 
 # jq is a lightweight and flexible command-line JSON processor.
-brew 'jq'
+# brew 'jq'
 
 ##
 # Google software
@@ -419,67 +422,67 @@ cask 'google-chrome'
 cask 'google-drive'
 
 # Google Earth viewer for satellite imagery and maps.
-cask 'google-earth'
+# cask 'google-earth'
 
 # Google Music plays songs, especially with a subscription service.
-cask 'google-music'
+# cask 'google-music'
 
 # TDB
-cask 'google-notifier'
+# cask 'google-notifier'
 
 # TDB
-cask 'google-quick-search-box'
+# cask 'google-quick-search-box'
 
 # TDB
-cask 'google-refine'
+# cask 'google-refine'
 
 # TDB
-cask 'google-web-designer'
+# cask 'google-web-designer'
 
 
 ##################### TODO ####################################
 
 # GraphicsMagick is the swiss army knife of image processing.
-brew 'graphicsmagick'
+# brew 'graphicsmagick'
 
 # TODO
-brew 'graphviz'
+# brew 'graphviz'
 
 # Gnuplot is a portable command-line driven graphing utility.
-brew 'gnuplot'
+# brew 'gnuplot'
 
 # TODO
-brew 'html-xml-utils'
+# brew 'html-xml-utils'
 
 # TODO
-brew 'lynx'
+# brew 'lynx'
 
 # Most is a powerful paging program; compare `less` and `more`.
-brew 'most'
+# brew 'most'
 
 # Mutt is a small powerful text-based mail client.
-brew 'mutt'
+# brew 'mutt'
 
 # Netcat is a networking utility for the TCP/IP protocol.
-brew 'netcat'
+# brew 'netcat'
 
 # TODO
-brew 'ncdu'
+# brew 'ncdu'
 
 # TODO
-brew 'randomize-lines'
+# brew 'randomize-lines'
 
 # TODO
-brew 'rename'
+# brew 'rename'
 
 # TODO
-brew 'salt'
+# brew 'salt'
 
 # Tree is a directory lister that shows a tree outline
-brew 'tree'
+# brew 'tree'
 
 # xclip is a command line interface to the X11 clipboard.
-brew 'xclip'
+# brew 'xclip'
 
 ## Server-Related
 
@@ -494,128 +497,128 @@ brew 'docker-compose'
 brew 'docker-machine'
 
 # Consul tool for discovering and configuring services in your infrastructure
-brew 'consul'
+# brew 'consul'
 
 # Monit is for managing and monitoring Unix systems.
-brew 'monit'
+# brew 'monit'
 
 # Nagios IT infrastructure monitoring.
-brew 'nagios'
+# brew 'nagios'
 
 # TODO
 brew 'nginx'
 
 # Varnish reverse-proxy web application accelerator.
-brew 'varnish'
+# brew 'varnish'
 
 ## Media-Related
 
-brew 'exif'
-brew 'exiftags'
-brew 'exiftool'
-brew 'flac'
+# brew 'exif'
+# brew 'exiftags'
+# brew 'exiftool'
+# brew 'flac'
 brew 'ffmpeg'
 brew 'ffmpeg2theora'
 brew 'ffmpegthumbnailer'
-brew 'imagemagick'
-brew 'kindle'
-brew 'theora'
+# brew 'imagemagick'
+# brew 'kindle'
+# brew 'theora'
 
 ##
 # Font-Related
 ##
 
 # Fontconfig is a library for configuring and customizing font access.
-brew 'fontconfig'
+# brew 'fontconfig'
 
 # FreeType is a freely available software library to render fonts.
-brew 'freetype'
+# brew 'freetype'
 
 ##
 # Image-Related
 ##
 
-brew 'libgphoto2'
-brew 'libpng'
-brew 'libtiff'
+# brew 'libgphoto2'
+# brew 'libpng'
+# brew 'libtiff'
 
 # Jasper command line transcoder between JPEG2000 and other formats.
-brew 'jasper'
+# brew 'jasper'
 
 ## Uncategorized
 
-brew 'abook'
-brew 'ack'
-brew 'apachetop'
-brew 'apple-gcc42'
-brew 'ascii'
-brew 'asciidoc'
-brew 'asciitex'
-brew 'autobench'
-brew 'autoconf'
-brew 'autoenv'
-brew 'autogen'
-brew 'autojump'
-brew 'base64'
-brew 'bcrypt'
-brew 'bind'
-brew 'bison'
-brew 'bogofilter'
-brew 'colordiff'
-brew 'ctags'
-brew 'docbook'
-brew 'dovecot'
-brew 'doxygen'
-brew 'dpkg'
-brew 'fakeroot'
-brew 'findutils'
-brew 'geoip'
-brew 'gnu-barcode'
-brew 'gnu-getopt'
-brew 'gnu-indent'
-brew 'gnu-prolog'
-brew 'gnu-sed --default-names'
-brew 'gnu-smalltalk'
-brew 'gnu-tar'
-brew 'gnu-time'
-brew 'gnu-typist'
-brew 'gnu-units'
-brew 'gnu-which'
-brew 'google-app-engine'
-brew 'google-js-test'
-brew 'google-perftools'
-brew 'google-sparsehash'
-brew 'google-sql-tool'
-brew 'html2text'
-brew 'htop'
-brew 'httperf'
-brew 'ical-buddy'
-brew 'jmeter'
-brew 'jpeg'
-brew isntall libdnet
-brew 'lzo'
-brew 'rarian'
-brew 'pixman'
+# brew 'abook'
+# brew 'ack'
+# brew 'apachetop'
+# brew 'apple-gcc42'
+# brew 'ascii'
+# brew 'asciidoc'
+# brew 'asciitex'
+# brew 'autobench'
+# brew 'autoconf'
+# brew 'autoenv'
+# brew 'autogen'
+# brew 'autojump'
+# brew 'base64'
+# brew 'bcrypt'
+# brew 'bind'
+# brew 'bison'
+# brew 'bogofilter'
+# brew 'colordiff'
+# brew 'ctags'
+# brew 'docbook'
+# brew 'dovecot'
+# brew 'doxygen'
+# brew 'dpkg'
+# brew 'fakeroot'
+# brew 'findutils'
+# brew 'geoip'
+# brew 'gnu-barcode'
+# brew 'gnu-getopt'
+# brew 'gnu-indent'
+# brew 'gnu-prolog'
+# brew 'gnu-sed --default-names'
+# brew 'gnu-smalltalk'
+# brew 'gnu-tar'
+# brew 'gnu-time'
+# brew 'gnu-typist'
+# brew 'gnu-units'
+# brew 'gnu-which'
+# brew 'google-app-engine'
+# brew 'google-js-test'
+# brew 'google-perftools'
+# brew 'google-sparsehash'
+# brew 'google-sql-tool'
+# brew 'html2text'
+# brew 'htop'
+# brew 'httperf'
+# brew 'ical-buddy'
+# brew 'jmeter'
+# brew 'jpeg'
+# brew isntall libdnet
+# brew 'lzo'
+# brew 'rarian'
+# brew 'pixman'
 
 # libMemcached is a client library and tools for the memcached server.
-brew 'libmemcached'
-brew 'memcached'
+# brew 'libmemcached'
+# brew 'memcached'
 
-brew 'scrypt'
-brew 'qt5'
+# brew 'scrypt'
+# brew 'qt5'
 
 # Tarsnap is a secure online backup service for Unix.
-brew 'tarsnap'
+# brew 'tarsnap'
 
 # Valkyrie is a Qt4-based GUI for the Memcheck and Helgrind tools in Valgrind.
 # Commented-out because it's currently incompatible with macOS 10.12.
 #brew 'valkyrie'
 
 # WINE runs Windows applications on other operating systems.
-brew 'wine'
+# brew 'wine'
 
 # Xapian is an open-source search engine library.
-brew 'xapian'
+# brew 'xapian'
 
 ##
 # Dupes
@@ -637,39 +640,39 @@ brew 'xapian'
 #
 ##
 
-brew 'homebrew/dupes/awk'
-brew 'homebrew/dupes/diffstat'
-brew 'homebrew/dupes/diffutils'
-brew 'homebrew/dupes/ed'
-brew 'homebrew/dupes/expect'
-brew 'homebrew/dupes/fetchmail'
-brew 'homebrew/dupes/file-formula'
-brew 'homebrew/dupes/gdb'
-brew 'homebrew/dupes/gpatch'
-brew 'homebrew/dupes/gperf'
-brew 'homebrew/dupes/grep'
-brew 'homebrew/dupes/groff'
-brew 'homebrew/dupes/gzip'
-brew 'homebrew/dupes/heimdal'
-brew 'homebrew/dupes/lapack'
-brew 'homebrew/dupes/less'
-brew 'homebrew/dupes/libedit'
-brew 'homebrew/dupes/libiconv'
-brew 'homebrew/dupes/libpcap'
-brew 'homebrew/dupes/lsof'
-brew 'homebrew/dupes/m4'
-brew 'homebrew/dupes/make'
-brew 'homebrew/dupes/nano'
-brew 'homebrew/dupes/ncurses'
-brew 'homebrew/dupes/openldap'
-brew 'homebrew/dupes/openssh'
-brew 'homebrew/dupes/screen'
-brew 'homebrew/dupes/tcl-tk'
-brew 'homebrew/dupes/tcpdump'
-brew 'homebrew/dupes/tidy'
-brew 'homebrew/dupes/units'
-brew 'homebrew/dupes/whois'
-brew 'homebrew/dupes/zlib'
+# brew 'homebrew/dupes/awk'
+# brew 'homebrew/dupes/diffstat'
+# brew 'homebrew/dupes/diffutils'
+# brew 'homebrew/dupes/ed'
+# brew 'homebrew/dupes/expect'
+# brew 'homebrew/dupes/fetchmail'
+# brew 'homebrew/dupes/file-formula'
+# brew 'homebrew/dupes/gdb'
+# brew 'homebrew/dupes/gpatch'
+# brew 'homebrew/dupes/gperf'
+# brew 'homebrew/dupes/grep'
+# brew 'homebrew/dupes/groff'
+# brew 'homebrew/dupes/gzip'
+# brew 'homebrew/dupes/heimdal'
+# brew 'homebrew/dupes/lapack'
+# brew 'homebrew/dupes/less'
+# brew 'homebrew/dupes/libedit'
+# brew 'homebrew/dupes/libiconv'
+# brew 'homebrew/dupes/libpcap'
+# brew 'homebrew/dupes/lsof'
+# brew 'homebrew/dupes/m4'
+# brew 'homebrew/dupes/make'
+# brew 'homebrew/dupes/nano'
+# brew 'homebrew/dupes/ncurses'
+# brew 'homebrew/dupes/openldap'
+# brew 'homebrew/dupes/openssh'
+# brew 'homebrew/dupes/screen'
+# brew 'homebrew/dupes/tcl-tk'
+# brew 'homebrew/dupes/tcpdump'
+# brew 'homebrew/dupes/tidy'
+# brew 'homebrew/dupes/units'
+# brew 'homebrew/dupes/whois'
+# brew 'homebrew/dupes/zlib'
 
 ##
 # Brew cask enables installing typical Mac OS X applications.
@@ -679,97 +682,97 @@ brew 'homebrew/dupes/zlib'
 ##
 
 # Adium is an open source multi-protocol instant messaging client.
-cask 'adium'
+# cask 'adium'
 
 # TDB
-cask 'adventure'
+# cask 'adventure'
 
 # TDB
-cask 'alfred'
+# cask 'alfred'
 
 # TDB
-cask 'amazon-cloud-drive'
+# cask 'amazon-cloud-drive'
 
 # TDB
-cask 'amazon-music'
+# cask 'amazon-music'
 
 # TDB
 cask 'android-file-transfer'
 
 # TDB
-cask 'anki'
+# cask 'anki'
 
 # AppCleaner thoroughly uninstalls unwanted apps.
-cask 'appcleaner'
+# cask 'appcleaner'
 
 # TDB
-cask 'arq'
+# cask 'arq'
 
 # TDB
-cask 'atext'
+# cask 'atext'
 
 # TDB
-cask 'backblaze-downloader'
+# cask 'backblaze-downloader'
 
 # TDB
-cask 'backuploupe'
+# cask 'backuploupe'
 
 # TDB
-cask 'balsamiq-mockups'
+# cask 'balsamiq-mockups'
 
 # TDB
-cask 'bartender'
+# cask 'bartender'
 
 # TDB
-cask 'basecamp'
+# cask 'basecamp'
 
 # TDB
 cask 'beacon-scanner'
 
 # TDB
-cask 'blender'
+# cask 'blender'
 
 # TDB
-cask 'brain-workshop'
+# cask 'brain-workshop'
 
 # TDB
-cask 'cactus'
+# cask 'cactus'
 
 # TDB
 cask 'caffeine'
 
 # TDB
-cask 'calibre'
+# cask 'calibre'
 
 # TDB
-cask 'ccleaner'
+# cask 'ccleaner'
 
 # TDB
-cask 'cheatsheet'
+# cask 'cheatsheet'
 
 # TDB
-cask 'chromecast'
+# cask 'chromecast'
 
 # TDB
-cask 'coconutbattery'
+# cask 'coconutbattery'
 
 # TDB
-cask 'codekit'
+# cask 'codekit'
 
 # TDB
-cask 'commandq'
+# cask 'commandq'
 
 # TDB
-cask 'dash'
+# cask 'dash'
 
 # TDB
-cask 'doxygen'
+# cask 'doxygen'
 
 # TDB
-cask 'duet'
+# cask 'duet'
 
 # TDB
-cask 'easysimbl'
+# cask 'easysimbl'
 
 # TDB
 cask 'evernote'
@@ -778,39 +781,39 @@ cask 'evernote'
 cask 'filezilla'
 
 # TDB
-cask 'fluid'
+# cask 'fluid'
 
 # Flux dims the screen colors for better nighttime visibility.
 cask 'flux'
 
 # TDB
-cask 'freeplane'
+# cask 'freeplane'
 
 # TDB
-cask 'ganttproject'
+# cask 'ganttproject'
 
 # TDB
-cask 'gfxcardstatus'
+# cask 'gfxcardstatus'
 
 # GitHub source code social sharing
-cask 'github'
+# cask 'github'
 
 # TDB
-cask 'gitx'
+# cask 'gitx'
 
 ###################
 
 # TDB
-cask 'grooveshark'
+# cask 'grooveshark'
 
 # TDB
-cask 'harvest'
+# cask 'harvest'
 
 # TDB
-cask 'hockey'
+# cask 'hockey'
 
 # TDB
-cask 'hipchat'
+# cask 'hipchat'
 
 # TDB
 cask 'iterm2'
@@ -825,103 +828,106 @@ cask 'jumpcut'
 cask 'kindle'
 
 # TDB
-cask 'krita'
+# cask 'krita'
 
 # TDB
-cask 'launchy'
+# cask 'launchy'
 
 # TDB
-cask 'little-snitch'
+# cask 'little-snitch'
 
 # LibreOffice is a large editor for text, spreadsheets, diagrams.
-cask 'libreoffice'
+# cask 'libreoffice'
 
 # TODO
-cask 'mysqlworkbench'
+# cask 'mysqlworkbench'
 
 # TODO
-cask 'p4merge'
+# cask 'p4merge'
 
 # Pandora music player
-cask 'pandora-one'
+# cask 'pandora-one'
 
 # TODO
-cask 'paparazzi'
+# cask 'paparazzi'
 
 # Prezi slide show presentation.
-cask 'prezi'
+# cask 'prezi'
 
 # TODO
-cask 'pupil'
+# cask 'pupil'
 
 # TODO
-cask 'quicksilver'
+# cask 'quicksilver'
 
 # Rdio music player.
-cask 'rdio'
+# cask 'rdio'
 
 # TODO
-cask 'rescuetime'
+# cask 'rescuetime'
 
 # Screenhero screen sharing by Slack.
-cask 'screenhero'
+# cask 'screenhero'
 
 # TODO
-cask 'sequential'
+# cask 'sequential'
 
 # TODO
-cask 'shortcat'
+# cask 'shortcat'
 
 # Silverlight video player by Microsoft.
-cask 'silverlight'
+# cask 'silverlight'
 
 # TODO
-cask 'skitch'
+# cask 'skitch'
 
 # Skype calling with video and phone calls.
 cask 'skype'
 
 # Discord chat
-cask 'discord'
+# cask 'discord'
 
 # Slack chat client
 cask 'slack'
+
+# Whatsapp chat Client
+cask 'whatsapp'
 
 # TODO
 cask 'sleep-monitor'
 
 # Sophos anti virus
-cask 'sophos-anti-virus-home-edition'
+# cask 'sophos-anti-virus-home-edition'
 
 # TODO
-cask 'sourcetree'
+# cask 'sourcetree'
 
 # Spotify music player
 cask 'spotify'
 
 # TODO
-cask 'superduper'
+# cask 'superduper'
 
 # Synergy screen sharing utility
-cask 'synergy'
+# cask 'synergy'
 
 # TODO
-cask 'thisservice'
+# cask 'thisservice'
 
 # Thunderbird email client by Mozilla.
-cask 'thunderbird'
+# cask 'thunderbird'
 
 # TODO
-cask 'transmit'
+# cask 'transmit'
 
 # TODO
-cask 'todoist'
+# cask 'todoist'
 
 # TODO
-cask 'todos'
+# cask 'todos'
 
 # Unison file synchronizer.
-cask 'unison'
+# cask 'unison'
 
 # VLC media player
 cask 'vlc'
@@ -1378,7 +1384,7 @@ cask 'vlc'
 # brew 'mod_wsgi'
 # brew 'mogenerator'
 # brew 'monetdb'
-# brew 'mongoose'
+brew 'mongoose'
 # brew 'mongrel2'
 # brew 'monotone'
 # brew 'montage'
@@ -1469,14 +1475,14 @@ cask 'vlc'
 # brew 'nload'
 # brew 'nlopt'
 # brew 'nmap'
-# brew 'node'
+brew 'node'
 # brew 'notmuch'
 # brew 'noweb'
 # brew 'nrg2iso'
 # brew 'nrpe'
 # brew 'nspr'
 # brew 'nss'
-# brew 'ntfs-3g'
+brew 'ntfs-3g'
 # brew 'ntl'
 # brew 'nu'
 # brew 'num-utils'
@@ -2234,36 +2240,36 @@ cask 'vlc'
 ## Environment-related
 
 # DisplayLink enables adding monitors
-cask 'displaylink'
+# cask 'displaylink'
 
 # Java language for running many applications
 cask 'java'
 
 # Karabiner remaps keyboard keys
-cask 'karabiner'
+# cask 'karabiner'
 
 ## Media-related
 
 # Adobe Air player for multimedia content
-cask 'adobe-air'
+# cask 'adobe-air'
 
 # Adobe Reader for PDF files
-cask 'adobe-reader'
+# cask 'adobe-reader'
 
 
 ## Misc
 
-cask 'flip4mac'
-cask 'google-hangouts'
-cask 'inky'
-cask 'obs'
-cask 'pandoc'
-cask 'prey'
-cask 'seil'
-cask 'teamviewer'
-cask 'unity-web-player'
-cask 'unity3d'
-cask 'zoomus'
+# cask 'flip4mac'
+# cask 'google-hangouts'
+# cask 'inky'
+# cask 'obs'
+# cask 'pandoc'
+# cask 'prey'
+# cask 'seil'
+# cask 'teamviewer'
+# cask 'unity-web-player'
+# cask 'unity3d'
+# cask 'zoomus'
 
 
 ## Mac App Store
@@ -2271,9 +2277,9 @@ cask 'zoomus'
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Slack', id: 803453959
-mas 'Sip', id: 507257563
-mas 'Simplenote', id: 692867256
-mas 'Todoist', id: 585829637
+# mas 'Sip', id: 507257563
+# mas 'Simplenote', id: 692867256
+# mas 'Todoist', id: 585829637
 
 ##
 # brew-install-our-stacks-automatically.sh
@@ -2303,43 +2309,43 @@ mas 'Todoist', id: 585829637
 ##
 
 # XQuartz provides X.Org X Window System that runs on OS X.
-cask 'xquartz'
+# cask 'xquartz'
 
 ##
 # Environment
 ##
 
 # Code Climate Platform for all static analysic
-brew tap codeclimate/formulas && brew 'codeclimate'
+# brew tap codeclimate/formulas && brew 'codeclimate'
 
 # Command-line programs for manipulating fonts
-brew 'lcdf-typetools'
+# brew 'lcdf-typetools'
 
 ##
 # Shell
 ##
 
 # GUI for rsync
-brew 'grsync'
+# brew 'grsync'
 
 # Shell script syntax check linter
-brew link pandoc; brew 'shellcheck'
+# brew link pandoc; brew 'shellcheck'
 
 # BATS: Bash Automated Testing System
-cask 'bats'
+# cask 'bats'
 
 ##
 # Clients
 ##
 
 # Shuttle: simple SSH shortcut menu
-cask 'shuttle'
+# cask 'shuttle'
 
 # Fugu: a graphical shell for SSH and FTP.
-cask 'fugu'
+# cask 'fugu'
 
 # Charles: enables a developer to view HTTP traffic.
-cask 'charles'
+# cask 'charles'
 
 
 ##
@@ -2347,10 +2353,10 @@ cask 'charles'
 ##
 
 # Apache Maven is a software project management and comprehension tool.
-brew 'maven'
+# brew 'maven'
 
 # Apache Spark is for analyitcs
-brew 'apache-spark'
+# brew 'apache-spark'
 
 
 ##
@@ -2358,29 +2364,29 @@ brew 'apache-spark'
 ##
 
 # Dash documentation browser and code snippet manager
-cask 'dash'
+# cask 'dash'
 
 # Realm browser for the Realm embedded database
-cask 'realm-browser'
+# cask 'realm-browser'
 
 # Tunnelblick remote access VPN
-cask 'tunnelblick'
+# cask 'tunnelblick'
 
 ##
 # Networking
 ##
 
 # Wireshark network monitoring, with the QT GUI.
-brew link cmake; cask 'wireshark --with-qt'
+# brew link cmake; cask 'wireshark --with-qt'
 
 # Wireshark-chmodbft enables regular users to capture network packets.
 cask 'wireshark-chmodbpf'
 
 # Charles web debugging proxy
-cask 'charles'
+# cask 'charles'
 
 # Siege is an http load testing and benchmarking utility.
-brew 'siege'
+# brew 'siege'
 
 ##
 # Virtual environments
@@ -2397,18 +2403,18 @@ cask 'vagrant-manager'
 cask 'virtualbox'
 
 # Terraform common configuration to launch infrastructure.
-brew 'terraform'
+# brew 'terraform'
 
 # Kubernetes Solo cluster for macOS
-cask 'kube-solo'
+# cask 'kube-solo'
 
 ##
 # IDE
 ##
 
 # Eclipse is a large programming IDE built on Java
-cask 'eclipse-ide'
-cask 'eclipse-platform'
+# cask 'eclipse-ide'
+# cask 'eclipse-platform'
 
 ##
 # Databases
@@ -2425,46 +2431,46 @@ cask 'eclipse-platform'
 ##
 
 # Cassandra database.
-brew 'cassandra'
+# brew 'cassandra'
 
 # CouchDB database, esp. for document-oriented storage.
-brew 'couchdb'
+# brew 'couchdb'
 
 # Hadoop database.
-brew 'hadoop'
+# brew 'hadoop'
 
 # MariaDB database; prefer this over MySQL.
 brew 'mariadb'
 
 # MongoDB database.
-brew 'mongodb'
+# brew 'mongodb'
 
 # PostgreSQL database.
-brew 'postgres'
+# brew 'postgres'
 
 # PostgreSQL database.
-brew 'postgresql'
+# brew 'postgresql'
 
 # Postgres App provides a Mac-friendly database.
-cask 'postgres'
+# cask 'postgres'
 
 # Postgres admin GUI
-brew 'pgadmin3'
+# brew 'pgadmin3'
 
 # RabbitMQ enterprise message queue based on the emerging AMQP standard.
-brew 'rabbitmq'
+# brew 'rabbitmq'
 
 # Redis database, esp. for key-value cache and store, and data structures.
-brew 'redis'
+# brew 'redis'
 
 # Riak open-source distributed database.
-brew 'riak'
+# brew 'riak'
 
 # SQLite database: self-contained, serverless, zero-configuration, transactional engine.
-brew 'sqlite && brew link sqlite'
+# brew 'sqlite && brew link sqlite'
 
 # ZeroMQ message queue
-brew 'zeromq'
+# brew 'zeromq'
 
 ##
 # Database searchers
@@ -2473,7 +2479,7 @@ brew 'zeromq'
 ##
 
 # Sphinx search engine.
-brew link cmake; brew 'mysql; brew install postgresql; brew install sphinx'
+# brew link cmake; brew 'mysql; brew install postgresql; brew install sphinx'
 
 ##
 # Database managers
@@ -2482,19 +2488,19 @@ brew link cmake; brew 'mysql; brew install postgresql; brew install sphinx'
 ##
 
 # MySQL Workbench database editor.
-brew link cmake; cask 'mysqlworkbench'
+# brew link cmake; cask 'mysqlworkbench'
 
 # Realm browser mobile database editor.
-cask 'realm-browser'
+# cask 'realm-browser'
 
 # Sequel Pro database management application.
-cask 'sequel-pro'
+# cask 'sequel-pro'
 
 # Toad database manager by Dell.
-cask 'toad'
+# cask 'toad'
 
 # Valentina Studio database manager.
-cask 'valentina-studio'
+# cask 'valentina-studio'
 
 ##
 # Markup languages
@@ -2504,28 +2510,28 @@ cask 'valentina-studio'
 ##
 
 # Pandoc converts among various formats, such as Markdown and HTML
-brew 'pandoc'
+# brew 'pandoc'
 
 ## Markdown
 
 # MacDown simple markdown editor
-cask 'macdown'
+# cask 'macdown'
 
 ## UML
 
 # StarUML modeling tool
-cask 'staruml'
+# cask 'staruml'
 
 ## XML
 
 # XML converter
-brew 'xmlstarlet'
+# brew 'xmlstarlet'
 
 # Libxml2 is the XML C parser and toolkit.
-brew 'libxml2'
+# brew 'libxml2'
 
 # Libxslt is the XSLT C library for the XML EXtensible Stylesheet Language.
-brew 'libxslt'
+# brew 'libxslt'
 
 ##
 # Programming languages
@@ -2538,31 +2544,31 @@ brew 'libxslt'
 ## Clojure
 
 # Clojure programming language compiler.
-brew 'clojure-compiler'
+# brew 'clojure-compiler'
 
 # Leiningen automates Clojure projects.
-brew 'leiningen'
+# brew 'leiningen'
 
 ## Elixir
 
 # Elixir programming language built on top of the Erlang VM.
-brew 'elixir'
+# brew 'elixir'
 
 ## Erlang
 
 # Erlang programming language for scalable high-availability systems.
-brew 'erlang'
+# brew 'erlang'
 
 ## Go
 
 # Go programming language by Google; compare `C`.
-brew 'go'
+# brew 'go'
 
 ## Haskell
 
 # Cabal is a package manager for Haskell
-brew 'ghc'
-brew 'cabal-install'
+# brew 'ghc'
+# brew 'cabal-install'
 
 ## Java
 
@@ -2570,22 +2576,22 @@ brew 'cabal-install'
 cask 'java'
 
 # Gradle is a Java build tool
-brew 'gradle'
+# brew 'gradle'
 
 # Maven is a Java build tool
-brew 'maven'
+# brew 'maven'
 
 # Spring Tool Suite is an Eclipse IDE for developing apps
-cask 'sts'
+# cask 'sts'
 
 # Jetty provides a Java web server and javax.servlet container
-brew 'jetty'
+# brew 'jetty'
 
 # Apache Tomcat implements Java Servlet and JavaServer Pages technologies.
 brew 'tomcat'
 
 # Glassfish application server.
-brew 'glassfish'
+# brew 'glassfish'
 
 ## JavaScript
 
@@ -2593,27 +2599,27 @@ brew 'glassfish'
 brew 'node'
 
 # PhantomJS is a headless WebKit scriptable with a JavaScript API.
-brew 'phantomjs'
+# brew 'phantomjs'
 
 # V8 JavaScript Engine.
 brew 'v8'
 
 # JSON output using the shell
-brew 'jo'
+# brew 'jo'
 
 # JID JSON explorer
-brew tap simeji/jid && brew 'jid'
+# brew tap simeji/jid && brew 'jid'
 
 ## Perl
 
 # Perl programming language, esp. for systems administration.
-brew 'perl'
+# brew 'perl'
 
 # Perl-Compatible Regular Expressions pattern matching tools.
-brew 'pcre'
+# brew 'pcre'
 
 # CPAN search for perl modules
-brew 'cpansearch'
+# brew 'cpansearch'
 
 ## Python
 
@@ -2624,81 +2630,81 @@ brew 'python3'
 ## R
 
 # R programming language, esp. for statistics.
-brew 'r'
+# brew 'r'
 
 ## Ruby
 
 # chruby changes the current Ruby.
-brew 'chruby'
+# brew 'chruby'
 
 # JRuby is a high performance, stable, fully threaded Java implementation of Ruby.
-brew 'jruby'
+# brew 'jruby'
 
 # Ruby programming language; compare `perl`, `python`.
-brew 'ruby'
+# brew 'ruby'
 
 # Tool to install various implementations of Ruby.
-brew 'ruby-install'
+# brew 'ruby-install'
 
 ## Rust
 
 # Rust programming language
-brew 'rust'
+# brew 'rust'
 
 ## Scala
 
 # Scala programming language, that runs on top of the JVM.
-brew 'scala'
+# brew 'scala'
 
 ## iOS, Objective-C, Swift
 
 # Alcatraz Xcode plugin manager
-cask 'alcatraz'
+# cask 'alcatraz'
 
 # Appium test automation framework
-cask 'appium'
+# cask 'appium'
 
 # Carthage Xcode project dependency manager.
-brew 'carthage'
+# brew 'carthage'
 
 # Command-line application launcher for the iOS Simulator
-brew 'ios-sim'
+# brew 'ios-sim'
 
 # Tool to help with Swift style and conventions.
-brew 'swiftlint'
+# brew 'swiftlint'
 
 # SourceKitten attaches to SourceKit AST.
-brew 'sourcekitten'
+# brew 'sourcekitten'
 
 # Taylor is a Swift code quality metrics tool.
-brew 'taylor'
+# brew 'taylor'
 
 # Testflight Apple iOS testing service
-cask 'testflight'
+# cask 'testflight'
 
 ##
 # Platforms
 ##
 
 # Amazon Web Services (AWS) Command Line Interface (CLI)
-brew install awscli
+# brew install awscli
 
 # AWS command line tools
-brew tap wallix/awless
-brew 'awless'
+# brew tap wallix/awless
+# brew 'awless'
 
 # Heroku app hosting
-brew install heroku
+brew 'heroku'
 
 ##
 # Art editors
 ##
 
 # Xquarts
-cask 'xquartz'
+# cask 'xquartz'
 
 # Tap GUI
-brew tap homebrew/gui
+# brew tap homebrew/gui
 
 # Gimp pixel-based image editor, similar to Adobe Photoshop
 cask 'gimp'
@@ -2707,7 +2713,7 @@ cask 'gimp'
 cask 'inkscape'
 
 # Shotcut movie editor
-cask 'shotcut'
+# cask 'shotcut'
 
 ##
 # Paid software
@@ -2725,7 +2731,7 @@ cask 'shotcut'
 ## Paw.cloud
 
 # Paw HTTP API testing tool
-cask 'paw'
+# cask 'paw'
 
 ##
 # JetBrains
@@ -2736,28 +2742,28 @@ cask 'paw'
 ##
 
 # AppCode Swift IDE
-cask 'appcode'
+# cask 'appcode'
 
 # CLion C/C++ IDE
-cask 'clion'
+# cask 'clion'
 
 # DataGrip SQL IDE
-cask 'datagrip'
+# cask 'datagrip'
 
 # IntelliJ Java IDE
-cask 'intellij-idea'
+# cask 'intellij-idea'
 
 # PhpStorm PHP IDE
-cask 'phpstorm'
+# cask 'phpstorm'
 
 # PyCharm Python IDE
-cask 'pycharm'
+# cask 'pycharm'
 
 # RubyMine Ruby IDE
-cask 'rubymine'
+# cask 'rubymine'
 
 # WebStorm IDE
-cask 'webstorm'
+# cask 'webstorm'
 
 ##
 # OmniGroup
@@ -2766,16 +2772,16 @@ cask 'webstorm'
 ##
 
 # To do list task manager
-cask 'omnifocus'
+# cask 'omnifocus'
 
 # Diagramming
-cask 'omnigraffle'
+# cask 'omnigraffle'
 
 # Project management planning
-cask 'omniplan'
+# cask 'omniplan'
 
 # Outliner
-cask 'omnioutliner'
+# cask 'omnioutliner'
 
 ##
 # Libraries
@@ -2790,47 +2796,47 @@ cask 'omnioutliner'
 ##
 
 # THe libevent API provides provides asynchronous event notification and callbacks.
-brew 'libevent'
+# brew 'libevent'
 
 # Magic number recognition library for file types.
-brew 'libmagic'
+# brew 'libmagic'
 
 # Audio/Visual converters
-brew 'libav'
+# brew 'libav'
 
 # Curl web fetcher
-brew 'libcurl'
+# brew 'libcurl'
 
 # Foreign Function Interface Library
-brew 'libffi'
+# brew 'libffi'
 
 # Text encoding
-brew 'libiconv'
+# brew 'libiconv'
 
 # File magic number recognizer
-brew 'libmagic'
+# brew 'libmagic'
 
 # ncurses console nagivation
-brew 'libncurses'
+# brew 'libncurses'
 
 # Sodium secure cryptography
-brew 'libsodium'
+# brew 'libsodium'
 
 # Readline terminal input
-brew 'libreadline'
+# brew 'libreadline'
 
 # GNU libtool is a generic library support script.
-brew 'libtool'
+# brew 'libtool'
 
 # XML handlers
-brew 'libxml2'
-brew 'libxslt'
+# brew 'libxml2'
+# brew 'libxslt'
 
 # High-level interface to X.509 and CMS (Cryptographic Message Syntax)
-brew 'libksba'
+# brew 'libksba'
 
 # V8 JavaScript
-brew 'libv8'
+# brew 'libv8'
 
 # YAML markup language
 brew 'libyaml'
@@ -2839,10 +2845,10 @@ brew 'libyaml'
 brew 'libzip'
 
 # Images
-brew 'libjpg'
-brew 'libpng'
-brew 'libtiff'
-brew 'libwebp'
+# brew 'libjpg'
+# brew 'libpng'
+# brew 'libtiff'
+# brew 'libwebp'
 
 ##
 # brew-install-our-tech-packages-manually.sh
@@ -2854,15 +2860,15 @@ brew 'libwebp'
 ##
 
 # Update - this is always the first step
-brew update
+# brew 'update'
 
 # Emacs editor.
-sudo rm /usr/bin/emacs &&
-sudo rm -rf /usr/share/emacs &&
-brew 'emacs --cocoa --srgb --use-git-head --HEAD &&'
-ls -1 /usr/local/Cellar/emacs/*/bin/emacs |
-tail -1 |
-xargs -I{} sudo ln -sf "{}" /usr/bin/emacs
+# sudo rm /usr/bin/emacs &&
+# sudo rm -rf /usr/share/emacs &&
+# brew 'emacs --cocoa --srgb --use-git-head --HEAD &&'
+# ls -1 /usr/local/Cellar/emacs/*/bin/emacs |
+# tail -1 |
+# xargs -I{} sudo ln -sf "{}" /usr/bin/emacs
 
 ## Networking
 
@@ -2875,10 +2881,10 @@ cask 'wireshark'
 ## Programming
 
 # Netbeans Java IDE
-cask 'netbeans'
+# cask 'netbeans'
 
 # R statistics programming language
-cask 'r'
+# cask 'r'
 
 ## Deployments
 
@@ -2901,1069 +2907,1069 @@ cask 'heroku-toolbelt'
 #      brew cask install font-inconsolata
 ##
 
-cask 'caskroom/fonts/font-3270'
-cask 'caskroom/fonts/font-abeezee'
-cask 'caskroom/fonts/font-abel'
-cask 'caskroom/fonts/font-aboriginal-sans'
-cask 'caskroom/fonts/font-aboriginal-serif'
-cask 'caskroom/fonts/font-abril-fatface'
-cask 'caskroom/fonts/font-aclonica'
-cask 'caskroom/fonts/font-acme'
-cask 'caskroom/fonts/font-actor'
-cask 'caskroom/fonts/font-adamina'
-cask 'caskroom/fonts/font-adinatha-tamil-brahmi'
-cask 'caskroom/fonts/font-advent-pro'
-cask 'caskroom/fonts/font-african-sans'
-cask 'caskroom/fonts/font-african-serif'
-cask 'caskroom/fonts/font-aguafina-script'
-cask 'caskroom/fonts/font-ahuramzda'
-cask 'caskroom/fonts/font-aileron'
-cask 'caskroom/fonts/font-akronim'
-cask 'caskroom/fonts/font-aladin'
-cask 'caskroom/fonts/font-aldrich'
-cask 'caskroom/fonts/font-alef'
-cask 'caskroom/fonts/font-alegreya-sans-sc'
-cask 'caskroom/fonts/font-alegreya-sans'
-cask 'caskroom/fonts/font-alegreya-sc'
-cask 'caskroom/fonts/font-alegreya'
-cask 'caskroom/fonts/font-aleo'
-cask 'caskroom/fonts/font-alex-brush'
-cask 'caskroom/fonts/font-alfa-slab-one'
-cask 'caskroom/fonts/font-alice'
-cask 'caskroom/fonts/font-alike-angular'
-cask 'caskroom/fonts/font-alike'
-cask 'caskroom/fonts/font-allan'
-cask 'caskroom/fonts/font-allerta-stencil'
-cask 'caskroom/fonts/font-allerta'
-cask 'caskroom/fonts/font-allura'
-cask 'caskroom/fonts/font-almendra-display'
-cask 'caskroom/fonts/font-almendra-sc'
-cask 'caskroom/fonts/font-almendra'
-cask 'caskroom/fonts/font-amarante'
-cask 'caskroom/fonts/font-amaranth'
-cask 'caskroom/fonts/font-amatic-sc'
-cask 'caskroom/fonts/font-amethysta'
-cask 'caskroom/fonts/font-amiri'
-cask 'caskroom/fonts/font-anaheim'
-cask 'caskroom/fonts/font-andada-sc'
-cask 'caskroom/fonts/font-andada'
-cask 'caskroom/fonts/font-andagii'
-cask 'caskroom/fonts/font-andale-mono'
-cask 'caskroom/fonts/font-andika'
-cask 'caskroom/fonts/font-angkor'
-cask 'caskroom/fonts/font-anka-coder'
-cask 'caskroom/fonts/font-annie-use-your-telescope'
-cask 'caskroom/fonts/font-anonymice-powerline'
-cask 'caskroom/fonts/font-anonymous-pro'
-cask 'caskroom/fonts/font-antic-didone'
-cask 'caskroom/fonts/font-antic-slab'
-cask 'caskroom/fonts/font-antic'
-cask 'caskroom/fonts/font-antinoou'
-cask 'caskroom/fonts/font-anton'
-cask 'caskroom/fonts/font-arapey'
-cask 'caskroom/fonts/font-arbutus-slab'
-cask 'caskroom/fonts/font-arbutus'
-cask 'caskroom/fonts/font-architects-daughter'
-cask 'caskroom/fonts/font-archivo-black'
-cask 'caskroom/fonts/font-archivo-narrow'
-cask 'caskroom/fonts/font-arial-black'
-cask 'caskroom/fonts/font-arial'
-cask 'caskroom/fonts/font-arimo'
-cask 'caskroom/fonts/font-arizonia'
-cask 'caskroom/fonts/font-armata'
-cask 'caskroom/fonts/font-artifika'
-cask 'caskroom/fonts/font-arvo'
-cask 'caskroom/fonts/font-asap'
-cask 'caskroom/fonts/font-asset'
-cask 'caskroom/fonts/font-astloch'
-cask 'caskroom/fonts/font-asul'
-cask 'caskroom/fonts/font-atomic-age'
-cask 'caskroom/fonts/font-aubrey'
-cask 'caskroom/fonts/font-audiowide'
-cask 'caskroom/fonts/font-autour-one'
-cask 'caskroom/fonts/font-average-sans'
-cask 'caskroom/fonts/font-average'
-cask 'caskroom/fonts/font-averia-gruesa-libre'
-cask 'caskroom/fonts/font-averia-libre'
-cask 'caskroom/fonts/font-averia-sans-libre'
-cask 'caskroom/fonts/font-averia-serif-libre'
-cask 'caskroom/fonts/font-awesome-terminal-fonts'
-cask 'caskroom/fonts/font-babelstone-han'
-cask 'caskroom/fonts/font-babelstone-modern'
-cask 'caskroom/fonts/font-bad-script'
-cask 'caskroom/fonts/font-baloo'
-cask 'caskroom/fonts/font-balthazar'
-cask 'caskroom/fonts/font-bangers'
-cask 'caskroom/fonts/font-baron'
-cask 'caskroom/fonts/font-basic'
-cask 'caskroom/fonts/font-battambang'
-cask 'caskroom/fonts/font-baumans'
-cask 'caskroom/fonts/font-bayon'
-cask 'caskroom/fonts/font-bebas-neue'
-cask 'caskroom/fonts/font-belgrano'
-cask 'caskroom/fonts/font-belleza'
-cask 'caskroom/fonts/font-benchnine'
-cask 'caskroom/fonts/font-bentham'
-cask 'caskroom/fonts/font-berkshire-swash'
-cask 'caskroom/fonts/font-bevan'
-cask 'caskroom/fonts/font-bf-tiny-hand'
-cask 'caskroom/fonts/font-bigelow-rules'
-cask 'caskroom/fonts/font-bigshot-one'
-cask 'caskroom/fonts/font-bilbo-swash-caps'
-cask 'caskroom/fonts/font-bilbo'
-cask 'caskroom/fonts/font-bitstream-vera'
-cask 'caskroom/fonts/font-bitter'
-cask 'caskroom/fonts/font-black-ops-one'
-cask 'caskroom/fonts/font-blokk-neue'
-cask 'caskroom/fonts/font-bokor'
-cask 'caskroom/fonts/font-bonbon'
-cask 'caskroom/fonts/font-boogaloo'
-cask 'caskroom/fonts/font-bowlby-one-sc'
-cask 'caskroom/fonts/font-bowlby-one'
-cask 'caskroom/fonts/font-bravura'
-cask 'caskroom/fonts/font-brawler'
-cask 'caskroom/fonts/font-bree-serif'
-cask 'caskroom/fonts/font-bubblegum-sans'
-cask 'caskroom/fonts/font-bubbler-one'
-cask 'caskroom/fonts/font-buda'
-cask 'caskroom/fonts/font-buenard'
-cask 'caskroom/fonts/font-bukyvede-bold'
-cask 'caskroom/fonts/font-bukyvede-italic'
-cask 'caskroom/fonts/font-bukyvede-regular'
-cask 'caskroom/fonts/font-bungee'
-cask 'caskroom/fonts/font-butcherman'
-cask 'caskroom/fonts/font-butler'
-cask 'caskroom/fonts/font-butterfly-kids'
-cask 'caskroom/fonts/font-cabin-condensed'
-cask 'caskroom/fonts/font-cabin-sketch'
-cask 'caskroom/fonts/font-cabin'
-cask 'caskroom/fonts/font-caesar-dressing'
-cask 'caskroom/fonts/font-cagliostro'
-cask 'caskroom/fonts/font-calligraffitti'
-cask 'caskroom/fonts/font-cambo'
-cask 'caskroom/fonts/font-camingocode'
-cask 'caskroom/fonts/font-candal'
-cask 'caskroom/fonts/font-cantarell'
-cask 'caskroom/fonts/font-cantata-one'
-cask 'caskroom/fonts/font-canter'
-cask 'caskroom/fonts/font-cantora-one'
-cask 'caskroom/fonts/font-capriola'
-cask 'caskroom/fonts/font-cardo'
-cask 'caskroom/fonts/font-carme'
-cask 'caskroom/fonts/font-carrois-gothic-sc'
-cask 'caskroom/fonts/font-carrois-gothic'
-cask 'caskroom/fonts/font-carter-one'
-cask 'caskroom/fonts/font-caudex'
-cask 'caskroom/fonts/font-cedarville-cursive'
-cask 'caskroom/fonts/font-ceviche-one'
-cask 'caskroom/fonts/font-changa-one'
-cask 'caskroom/fonts/font-chango'
-cask 'caskroom/fonts/font-chapbook'
-cask 'caskroom/fonts/font-charis-sil'
-cask 'caskroom/fonts/font-charter'
-cask 'caskroom/fonts/font-chau-philomene-one'
-cask 'caskroom/fonts/font-chela-one'
-cask 'caskroom/fonts/font-chelsea-market'
-cask 'caskroom/fonts/font-chenla'
-cask 'caskroom/fonts/font-cherry-cream-soda'
-cask 'caskroom/fonts/font-cherry-swash'
-cask 'caskroom/fonts/font-chewy'
-cask 'caskroom/fonts/font-chicle'
-cask 'caskroom/fonts/font-chivo'
-cask 'caskroom/fonts/font-cinzel-decorative'
-cask 'caskroom/fonts/font-cinzel'
-cask 'caskroom/fonts/font-clear-sans'
-cask 'caskroom/fonts/font-clicker-script'
-cask 'caskroom/fonts/font-coda-caption'
-cask 'caskroom/fonts/font-coda'
-cask 'caskroom/fonts/font-code'
-cask 'caskroom/fonts/font-code2000'
-cask 'caskroom/fonts/font-code2001'
-cask 'caskroom/fonts/font-code2002'
-cask 'caskroom/fonts/font-codystar'
-cask 'caskroom/fonts/font-combo'
-cask 'caskroom/fonts/font-comfortaa'
-cask 'caskroom/fonts/font-comic-neue'
-cask 'caskroom/fonts/font-comic-sans-ms'
-cask 'caskroom/fonts/font-coming-soon'
-cask 'caskroom/fonts/font-computer-modern'
-cask 'caskroom/fonts/font-conakry'
-cask 'caskroom/fonts/font-concert-one'
-cask 'caskroom/fonts/font-condiment'
-cask 'caskroom/fonts/font-consolas-for-powerline'
-cask 'caskroom/fonts/font-constructium'
-cask 'caskroom/fonts/font-content'
-cask 'caskroom/fonts/font-contrail-one'
-cask 'caskroom/fonts/font-convergence'
-cask 'caskroom/fonts/font-cookie'
-cask 'caskroom/fonts/font-copse'
-cask 'caskroom/fonts/font-corben'
-cask 'caskroom/fonts/font-courgette'
-cask 'caskroom/fonts/font-courier-new'
-cask 'caskroom/fonts/font-courier-prime'
-cask 'caskroom/fonts/font-cousine'
-cask 'caskroom/fonts/font-coustard'
-cask 'caskroom/fonts/font-covered-by-your-grace'
-cask 'caskroom/fonts/font-crafty-girls'
-cask 'caskroom/fonts/font-creepster'
-cask 'caskroom/fonts/font-crete-round'
-cask 'caskroom/fonts/font-crimson-text'
-cask 'caskroom/fonts/font-croissant-one'
-cask 'caskroom/fonts/font-crushed'
-cask 'caskroom/fonts/font-cuprum'
-cask 'caskroom/fonts/font-cutive-mono'
-cask 'caskroom/fonts/font-cutive'
-cask 'caskroom/fonts/font-cwtex-q'
-cask 'caskroom/fonts/font-d2coding'
-cask 'caskroom/fonts/font-damion'
-cask 'caskroom/fonts/font-dancing-script'
-cask 'caskroom/fonts/font-dangrek'
-cask 'caskroom/fonts/font-dashicons'
-cask 'caskroom/fonts/font-dawning-of-a-new-day'
-cask 'caskroom/fonts/font-days-one'
-cask 'caskroom/fonts/font-dejavu-sans-mono-for-powerline'
-cask 'caskroom/fonts/font-dejavu-sans'
-cask 'caskroom/fonts/font-delius-swash-caps'
-cask 'caskroom/fonts/font-delius-unicase'
-cask 'caskroom/fonts/font-delius'
-cask 'caskroom/fonts/font-della-respira'
-cask 'caskroom/fonts/font-denk-one'
-cask 'caskroom/fonts/font-devicons'
-cask 'caskroom/fonts/font-devonshire'
-cask 'caskroom/fonts/font-dhyana'
-cask 'caskroom/fonts/font-didact-gothic'
-cask 'caskroom/fonts/font-digohweli-old-do'
-cask 'caskroom/fonts/font-digohweli'
-cask 'caskroom/fonts/font-diplomata-sc'
-cask 'caskroom/fonts/font-diplomata'
-cask 'caskroom/fonts/font-disclaimer'
-cask 'caskroom/fonts/font-domine'
-cask 'caskroom/fonts/font-donegal-one'
-cask 'caskroom/fonts/font-doppio-one'
-cask 'caskroom/fonts/font-dorsa'
-cask 'caskroom/fonts/font-dosis'
-cask 'caskroom/fonts/font-dr-sugiyama'
-cask 'caskroom/fonts/font-droid-arabic-kufi'
-cask 'caskroom/fonts/font-droid-arabic-naskh'
-cask 'caskroom/fonts/font-droid-sans-ethiopic'
-cask 'caskroom/fonts/font-droid-sans-mono-for-powerline'
-cask 'caskroom/fonts/font-droid-sans-mono'
-cask 'caskroom/fonts/font-droid-sans-tamil'
-cask 'caskroom/fonts/font-droid-sans-thai'
-cask 'caskroom/fonts/font-droid-sans'
-cask 'caskroom/fonts/font-droid-serif-thai'
-cask 'caskroom/fonts/font-droid-serif'
-cask 'caskroom/fonts/font-dukor'
-cask 'caskroom/fonts/font-duru-sans'
-cask 'caskroom/fonts/font-dynalight'
-cask 'caskroom/fonts/font-eagle-lake'
-cask 'caskroom/fonts/font-eater'
-cask 'caskroom/fonts/font-eb-garamond'
-cask 'caskroom/fonts/font-economica'
-cask 'caskroom/fonts/font-edlo'
-cask 'caskroom/fonts/font-eeyek-unicode'
-cask 'caskroom/fonts/font-electrolize'
-cask 'caskroom/fonts/font-elsie-swash-caps'
-cask 'caskroom/fonts/font-elsie'
-cask 'caskroom/fonts/font-emblema-one'
-cask 'caskroom/fonts/font-emilys-candy'
-cask 'caskroom/fonts/font-engagement'
-cask 'caskroom/fonts/font-englebert'
-cask 'caskroom/fonts/font-enriqueta'
-cask 'caskroom/fonts/font-erica-one'
-cask 'caskroom/fonts/font-esteban'
-cask 'caskroom/fonts/font-et-book'
-cask 'caskroom/fonts/font-euphoria-script'
-cask 'caskroom/fonts/font-everson-mono'
-cask 'caskroom/fonts/font-ewert'
-cask 'caskroom/fonts/font-exo'
-cask 'caskroom/fonts/font-exo2'
-cask 'caskroom/fonts/font-expletus-sans'
-cask 'caskroom/fonts/font-ezra-sil'
-cask 'caskroom/fonts/font-fairfax'
-cask 'caskroom/fonts/font-fantasque-sans-mono'
-cask 'caskroom/fonts/font-fanwood-text'
-cask 'caskroom/fonts/font-fascinate-inline'
-cask 'caskroom/fonts/font-fascinate'
-cask 'caskroom/fonts/font-faster-one'
-cask 'caskroom/fonts/font-fasthand'
-cask 'caskroom/fonts/font-fauna-one'
-cask 'caskroom/fonts/font-federant'
-cask 'caskroom/fonts/font-federo'
-cask 'caskroom/fonts/font-felipa'
-cask 'caskroom/fonts/font-fenix'
-cask 'caskroom/fonts/font-finger-paint'
-cask 'caskroom/fonts/font-fira-code'
-cask 'caskroom/fonts/font-fira-mono-for-powerline'
-cask 'caskroom/fonts/font-fira-mono'
-cask 'caskroom/fonts/font-fira-sans'
-cask 'caskroom/fonts/font-firacode-nerd-font-mono'
-cask 'caskroom/fonts/font-firacode-nerd-font'
-cask 'caskroom/fonts/font-fjalla-one'
-cask 'caskroom/fonts/font-fjord-one'
-cask 'caskroom/fonts/font-flamenco'
-cask 'caskroom/fonts/font-flavors'
-cask 'caskroom/fonts/font-fondamento'
-cask 'caskroom/fonts/font-fontawesome'
-cask 'caskroom/fonts/font-fontdiner-swanky'
-cask 'caskroom/fonts/font-forum'
-cask 'caskroom/fonts/font-foundation-icons'
-cask 'caskroom/fonts/font-francois-one'
-cask 'caskroom/fonts/font-freckle-face'
-cask 'caskroom/fonts/font-fredericka-the-great'
-cask 'caskroom/fonts/font-fredoka-one'
-cask 'caskroom/fonts/font-free-hk-kai'
-cask 'caskroom/fonts/font-freehand'
-cask 'caskroom/fonts/font-freesans'
-cask 'caskroom/fonts/font-fresca'
-cask 'caskroom/fonts/font-frijole'
-cask 'caskroom/fonts/font-fruktur'
-cask 'caskroom/fonts/font-fugaz-one'
-cask 'caskroom/fonts/font-gabriela'
-cask 'caskroom/fonts/font-gafata'
-cask 'caskroom/fonts/font-galdeano'
-cask 'caskroom/fonts/font-galindo'
-cask 'caskroom/fonts/font-gandom'
-cask 'caskroom/fonts/font-genjyuugothic-l'
-cask 'caskroom/fonts/font-genjyuugothic-x'
-cask 'caskroom/fonts/font-genjyuugothic'
-cask 'caskroom/fonts/font-genshingothic'
-cask 'caskroom/fonts/font-gentium-basic'
-cask 'caskroom/fonts/font-gentium-book-basic'
-cask 'caskroom/fonts/font-gentium-plus'
-cask 'caskroom/fonts/font-geo'
-cask 'caskroom/fonts/font-georgia'
-cask 'caskroom/fonts/font-geostar-fill'
-cask 'caskroom/fonts/font-geostar'
-cask 'caskroom/fonts/font-germania-one'
-cask 'caskroom/fonts/font-gfs-didot'
-cask 'caskroom/fonts/font-gfs-neohellenic'
-cask 'caskroom/fonts/font-gidole'
-cask 'caskroom/fonts/font-gilda-display'
-cask 'caskroom/fonts/font-give-you-glory'
-cask 'caskroom/fonts/font-glass-antiqua'
-cask 'caskroom/fonts/font-glegoo'
-cask 'caskroom/fonts/font-glober'
-cask 'caskroom/fonts/font-gloria-hallelujah'
-cask 'caskroom/fonts/font-gnu-unifont'
-cask 'caskroom/fonts/font-go-medium'
-cask 'caskroom/fonts/font-go-mono'
-cask 'caskroom/fonts/font-go'
-cask 'caskroom/fonts/font-goblin-one'
-cask 'caskroom/fonts/font-gochi-hand'
-cask 'caskroom/fonts/font-gorditas'
-cask 'caskroom/fonts/font-goudy-bookletter1911'
-cask 'caskroom/fonts/font-graduate'
-cask 'caskroom/fonts/font-grand-hotel'
-cask 'caskroom/fonts/font-gravitas-one'
-cask 'caskroom/fonts/font-great-vibes'
-cask 'caskroom/fonts/font-griffy'
-cask 'caskroom/fonts/font-gruppo'
-cask 'caskroom/fonts/font-gudea'
-cask 'caskroom/fonts/font-habibi'
-cask 'caskroom/fonts/font-hack-nerd-font'
-cask 'caskroom/fonts/font-hack'
-cask 'caskroom/fonts/font-halant'
-cask 'caskroom/fonts/font-hammersmith-one'
-cask 'caskroom/fonts/font-han-nom-a'
-cask 'caskroom/fonts/font-hanalei-fill'
-cask 'caskroom/fonts/font-hanalei'
-cask 'caskroom/fonts/font-hanamina'
-cask 'caskroom/fonts/font-handlee'
-cask 'caskroom/fonts/font-hanuman'
-cask 'caskroom/fonts/font-happy-monkey'
-cask 'caskroom/fonts/font-hasklig'
-cask 'caskroom/fonts/font-headland-one'
-cask 'caskroom/fonts/font-henny-penny'
-cask 'caskroom/fonts/font-hermeneus-one'
-cask 'caskroom/fonts/font-hermit'
-cask 'caskroom/fonts/font-herr-von-muellerhoff'
-cask 'caskroom/fonts/font-hind'
-cask 'caskroom/fonts/font-holtwood-one-sc'
-cask 'caskroom/fonts/font-homemade-apple'
-cask 'caskroom/fonts/font-homenaje'
-cask 'caskroom/fonts/font-hyppolit'
-cask 'caskroom/fonts/font-iceberg'
-cask 'caskroom/fonts/font-iceland'
-cask 'caskroom/fonts/font-icomoon'
-cask 'caskroom/fonts/font-idealist-sans'
-cask 'caskroom/fonts/font-im-fell-double-pica-sc'
-cask 'caskroom/fonts/font-im-fell-double-pica'
-cask 'caskroom/fonts/font-im-fell-dw-pica-sc'
-cask 'caskroom/fonts/font-im-fell-dw-pica'
-cask 'caskroom/fonts/font-im-fell-english-sc'
-cask 'caskroom/fonts/font-im-fell-english'
-cask 'caskroom/fonts/font-im-fell-french-canon-sc'
-cask 'caskroom/fonts/font-im-fell-french-canon'
-cask 'caskroom/fonts/font-im-fell-great-primer-sc'
-cask 'caskroom/fonts/font-im-fell-great-primer'
-cask 'caskroom/fonts/font-impact'
-cask 'caskroom/fonts/font-imprima'
-cask 'caskroom/fonts/font-inconsolata-dz-for-powerline'
-cask 'caskroom/fonts/font-inconsolata-dz'
-cask 'caskroom/fonts/font-inconsolata-for-powerline'
-cask 'caskroom/fonts/font-inconsolata-g-for-powerline'
-cask 'caskroom/fonts/font-inconsolata-lgc'
-cask 'caskroom/fonts/font-inconsolata'
-cask 'caskroom/fonts/font-inder'
-cask 'caskroom/fonts/font-indie-flower'
-cask 'caskroom/fonts/font-inika'
-cask 'caskroom/fonts/font-input'
-cask 'caskroom/fonts/font-ionicons'
-cask 'caskroom/fonts/font-iosevka'
-cask 'caskroom/fonts/font-iranian-sans'
-cask 'caskroom/fonts/font-iranian-serif'
-cask 'caskroom/fonts/font-irish-grover'
-cask 'caskroom/fonts/font-istok-web'
-cask 'caskroom/fonts/font-italiana'
-cask 'caskroom/fonts/font-italianno'
-cask 'caskroom/fonts/font-jaapokki'
-cask 'caskroom/fonts/font-jacques-francois-shadow'
-cask 'caskroom/fonts/font-jacques-francois'
-cask 'caskroom/fonts/font-jim-nightshade'
-cask 'caskroom/fonts/font-jockey-one'
-cask 'caskroom/fonts/font-jolly-lodger'
-cask 'caskroom/fonts/font-josefin-sans'
-cask 'caskroom/fonts/font-josefin-slab'
-cask 'caskroom/fonts/font-joti-one'
-cask 'caskroom/fonts/font-jsmath-cmbx10'
-cask 'caskroom/fonts/font-judson'
-cask 'caskroom/fonts/font-julee'
-cask 'caskroom/fonts/font-julius-sans-one'
-cask 'caskroom/fonts/font-junge'
-cask 'caskroom/fonts/font-junicode'
-cask 'caskroom/fonts/font-jura'
-cask 'caskroom/fonts/font-just-another-hand'
-cask 'caskroom/fonts/font-just-me-again-down-here'
-cask 'caskroom/fonts/font-kacstone'
-cask 'caskroom/fonts/font-kalam'
-cask 'caskroom/fonts/font-kameron'
-cask 'caskroom/fonts/font-kantumruy'
-cask 'caskroom/fonts/font-karla-tamil-inclined'
-cask 'caskroom/fonts/font-karla-tamil-upright'
-cask 'caskroom/fonts/font-karla'
-cask 'caskroom/fonts/font-karma'
-cask 'caskroom/fonts/font-kaushan-script'
-cask 'caskroom/fonts/font-kavoon'
-cask 'caskroom/fonts/font-kawkab-mono'
-cask 'caskroom/fonts/font-kayases'
-cask 'caskroom/fonts/font-kdam-thmor'
-cask 'caskroom/fonts/font-keania-one'
-cask 'caskroom/fonts/font-keep-calm'
-cask 'caskroom/fonts/font-kelly-slab'
-cask 'caskroom/fonts/font-kenia'
-cask 'caskroom/fonts/font-khand'
-cask 'caskroom/fonts/font-khmer'
-cask 'caskroom/fonts/font-kisiska'
-cask 'caskroom/fonts/font-kite-one'
-cask 'caskroom/fonts/font-knewave'
-cask 'caskroom/fonts/font-koruri'
-cask 'caskroom/fonts/font-kotta-one'
-cask 'caskroom/fonts/font-koulen'
-cask 'caskroom/fonts/font-kranky'
-cask 'caskroom/fonts/font-kreon'
-cask 'caskroom/fonts/font-kristi'
-cask 'caskroom/fonts/font-krona-one'
-cask 'caskroom/fonts/font-la-belle-aurore'
-cask 'caskroom/fonts/font-laila'
-cask 'caskroom/fonts/font-lalezar'
-cask 'caskroom/fonts/font-lancelot'
-cask 'caskroom/fonts/font-lateef'
-cask 'caskroom/fonts/font-latin-modern-math'
-cask 'caskroom/fonts/font-latin-modern'
-cask 'caskroom/fonts/font-lato'
-cask 'caskroom/fonts/font-league-gothic'
-cask 'caskroom/fonts/font-league-script'
-cask 'caskroom/fonts/font-league-spartan'
-cask 'caskroom/fonts/font-leckerli-one'
-cask 'caskroom/fonts/font-ledger'
-cask 'caskroom/fonts/font-lekton'
-cask 'caskroom/fonts/font-lemon'
-cask 'caskroom/fonts/font-liberation-mono-for-powerline'
-cask 'caskroom/fonts/font-liberation-sans'
-cask 'caskroom/fonts/font-libertinus'
-cask 'caskroom/fonts/font-libre-baskerville'
-cask 'caskroom/fonts/font-libre-caslon-text'
-cask 'caskroom/fonts/font-libre-franklin'
-cask 'caskroom/fonts/font-life-savers'
-cask 'caskroom/fonts/font-ligature-symbols'
-cask 'caskroom/fonts/font-lilita-one'
-cask 'caskroom/fonts/font-lily-script-one'
-cask 'caskroom/fonts/font-limelight'
-cask 'caskroom/fonts/font-linden-hill'
-cask 'caskroom/fonts/font-linux-biolinum'
-cask 'caskroom/fonts/font-linux-libertine'
-cask 'caskroom/fonts/font-lisutzimu'
-cask 'caskroom/fonts/font-lobster-two'
-cask 'caskroom/fonts/font-lobster'
-cask 'caskroom/fonts/font-lohit-assamese'
-cask 'caskroom/fonts/font-lohit-bengali'
-cask 'caskroom/fonts/font-lohit-devanagari'
-cask 'caskroom/fonts/font-lohit-gujarati'
-cask 'caskroom/fonts/font-lohit-kannada'
-cask 'caskroom/fonts/font-lohit-malayalam'
-cask 'caskroom/fonts/font-lohit-marathi'
-cask 'caskroom/fonts/font-lohit-nepali'
-cask 'caskroom/fonts/font-lohit-oriya'
-cask 'caskroom/fonts/font-lohit-punjabi'
-cask 'caskroom/fonts/font-lohit-tamil-classical'
-cask 'caskroom/fonts/font-lohit-tamil'
-cask 'caskroom/fonts/font-lohit-telugu'
-cask 'caskroom/fonts/font-londrina-outline'
-cask 'caskroom/fonts/font-londrina-shadow'
-cask 'caskroom/fonts/font-londrina-sketch'
-cask 'caskroom/fonts/font-londrina-solid'
-cask 'caskroom/fonts/font-lora'
-cask 'caskroom/fonts/font-love-ya-like-a-sister'
-cask 'caskroom/fonts/font-loved-by-the-king'
-cask 'caskroom/fonts/font-lovers-quarrel'
-cask 'caskroom/fonts/font-luckiest-guy'
-cask 'caskroom/fonts/font-luculent'
-cask 'caskroom/fonts/font-lusitana'
-cask 'caskroom/fonts/font-lustria'
-cask 'caskroom/fonts/font-m-plus'
-cask 'caskroom/fonts/font-macondo-swash-caps'
-cask 'caskroom/fonts/font-macondo'
-cask 'caskroom/fonts/font-magra'
-cask 'caskroom/fonts/font-maiden-orange'
-cask 'caskroom/fonts/font-mako'
-cask 'caskroom/fonts/font-marcellus-sc'
-cask 'caskroom/fonts/font-marcellus'
-cask 'caskroom/fonts/font-marck-script'
-cask 'caskroom/fonts/font-margarine'
-cask 'caskroom/fonts/font-marko-one'
-cask 'caskroom/fonts/font-marmelad'
-cask 'caskroom/fonts/font-marta'
-cask 'caskroom/fonts/font-marvel'
-cask 'caskroom/fonts/font-masinahikan-dene'
-cask 'caskroom/fonts/font-masinahikan'
-cask 'caskroom/fonts/font-mate-sc'
-cask 'caskroom/fonts/font-mate'
-cask 'caskroom/fonts/font-material-icons'
-cask 'caskroom/fonts/font-materialdesignicons-webfont'
-cask 'caskroom/fonts/font-maven-pro'
-cask 'caskroom/fonts/font-mclaren'
-cask 'caskroom/fonts/font-meddon'
-cask 'caskroom/fonts/font-medievalsharp'
-cask 'caskroom/fonts/font-medula-one'
-cask 'caskroom/fonts/font-megrim'
-cask 'caskroom/fonts/font-meie-script'
-cask 'caskroom/fonts/font-menlo-for-powerline'
-cask 'caskroom/fonts/font-merienda-one'
-cask 'caskroom/fonts/font-merienda'
-cask 'caskroom/fonts/font-merriweather-sans'
-cask 'caskroom/fonts/font-merriweather'
-cask 'caskroom/fonts/font-meslo-lg-for-powerline'
-cask 'caskroom/fonts/font-metal-mania'
-cask 'caskroom/fonts/font-metal'
-cask 'caskroom/fonts/font-metamorphous'
-cask 'caskroom/fonts/font-metrophobic'
-cask 'caskroom/fonts/font-mfizz'
-cask 'caskroom/fonts/font-miao-unicode'
-cask 'caskroom/fonts/font-michroma'
-cask 'caskroom/fonts/font-migmix-1m'
-cask 'caskroom/fonts/font-migmix-1p'
-cask 'caskroom/fonts/font-migmix-2m'
-cask 'caskroom/fonts/font-migmix-2p'
-cask 'caskroom/fonts/font-migu-1c'
-cask 'caskroom/fonts/font-migu-1m'
-cask 'caskroom/fonts/font-migu-1p'
-cask 'caskroom/fonts/font-migu-2m'
-cask 'caskroom/fonts/font-milonga'
-cask 'caskroom/fonts/font-miltonian-tattoo'
-cask 'caskroom/fonts/font-miltonian'
-cask 'caskroom/fonts/font-miniver'
-cask 'caskroom/fonts/font-miss-fajardose'
-cask 'caskroom/fonts/font-modern-antiqua'
-cask 'caskroom/fonts/font-molengo'
-cask 'caskroom/fonts/font-molle'
-cask 'caskroom/fonts/font-monda'
-cask 'caskroom/fonts/font-monofett'
-cask 'caskroom/fonts/font-monofur-for-powerline'
-cask 'caskroom/fonts/font-monofur'
-cask 'caskroom/fonts/font-monoid'
-cask 'caskroom/fonts/font-monoisome'
-cask 'caskroom/fonts/font-mononoki'
-cask 'caskroom/fonts/font-monoton'
-cask 'caskroom/fonts/font-monsieur-la-doulaise'
-cask 'caskroom/fonts/font-montaga'
-cask 'caskroom/fonts/font-montez'
-cask 'caskroom/fonts/font-montserrat-alternates'
-cask 'caskroom/fonts/font-montserrat-subrayada'
-cask 'caskroom/fonts/font-montserrat'
-cask 'caskroom/fonts/font-moul'
-cask 'caskroom/fonts/font-moulpali'
-cask 'caskroom/fonts/font-mountains-of-christmas'
-cask 'caskroom/fonts/font-mouse-memoirs'
-cask 'caskroom/fonts/font-mr-bedfort'
-cask 'caskroom/fonts/font-mr-dafoe'
-cask 'caskroom/fonts/font-mr-de-haviland'
-cask 'caskroom/fonts/font-mrs-saint-delafield'
-cask 'caskroom/fonts/font-mrs-sheppards'
-cask 'caskroom/fonts/font-mukti-narrow'
-cask 'caskroom/fonts/font-muli'
-cask 'caskroom/fonts/font-myrica'
-cask 'caskroom/fonts/font-myricam'
-cask 'caskroom/fonts/font-mystery-quest'
-cask 'caskroom/fonts/font-n-gage'
-cask 'caskroom/fonts/font-namdhinggo-sil'
-cask 'caskroom/fonts/font-nanumgothic'
-cask 'caskroom/fonts/font-nanumgothiccoding'
-cask 'caskroom/fonts/font-nanummyeongjo'
-cask 'caskroom/fonts/font-neucha'
-cask 'caskroom/fonts/font-neuton'
-cask 'caskroom/fonts/font-new-athena-unicode'
-cask 'caskroom/fonts/font-new-rocker'
-cask 'caskroom/fonts/font-news-cycle'
-cask 'caskroom/fonts/font-nexa'
-cask 'caskroom/fonts/font-niconne'
-cask 'caskroom/fonts/font-nika'
-cask 'caskroom/fonts/font-nixie-one'
-cask 'caskroom/fonts/font-nobile'
-cask 'caskroom/fonts/font-nokora'
-cask 'caskroom/fonts/font-norican'
-cask 'caskroom/fonts/font-norwester'
-cask 'caskroom/fonts/font-nosifer'
-cask 'caskroom/fonts/font-nothing-you-could-do'
-cask 'caskroom/fonts/font-noticia-text'
-cask 'caskroom/fonts/font-noto-color-emoji'
-cask 'caskroom/fonts/font-noto-emoji'
-cask 'caskroom/fonts/font-noto-kufi-arabic'
-cask 'caskroom/fonts/font-noto-mono'
-cask 'caskroom/fonts/font-noto-naskh-arabic'
-cask 'caskroom/fonts/font-noto-nastaliq-urdu'
-cask 'caskroom/fonts/font-noto-sans-armenian'
-cask 'caskroom/fonts/font-noto-sans-avestan'
-cask 'caskroom/fonts/font-noto-sans-balinese'
-cask 'caskroom/fonts/font-noto-sans-bamum'
-cask 'caskroom/fonts/font-noto-sans-batak'
-cask 'caskroom/fonts/font-noto-sans-bengali'
-cask 'caskroom/fonts/font-noto-sans-brahmi'
-cask 'caskroom/fonts/font-noto-sans-buginese'
-cask 'caskroom/fonts/font-noto-sans-buhid'
-cask 'caskroom/fonts/font-noto-sans-canadian-aboriginal'
-cask 'caskroom/fonts/font-noto-sans-carian'
-cask 'caskroom/fonts/font-noto-sans-cham'
-cask 'caskroom/fonts/font-noto-sans-cherokee'
-cask 'caskroom/fonts/font-noto-sans-cjk-jp'
-cask 'caskroom/fonts/font-noto-sans-cjk-kr'
-cask 'caskroom/fonts/font-noto-sans-cjk-sc'
-cask 'caskroom/fonts/font-noto-sans-cjk-tc'
-cask 'caskroom/fonts/font-noto-sans-cjk'
-cask 'caskroom/fonts/font-noto-sans-coptic'
-cask 'caskroom/fonts/font-noto-sans-cuneiform'
-cask 'caskroom/fonts/font-noto-sans-cypriot'
-cask 'caskroom/fonts/font-noto-sans-deseret'
-cask 'caskroom/fonts/font-noto-sans-devanagari'
-cask 'caskroom/fonts/font-noto-sans-egyptian-hieroglyphs'
-cask 'caskroom/fonts/font-noto-sans-ethiopic'
-cask 'caskroom/fonts/font-noto-sans-georgian'
-cask 'caskroom/fonts/font-noto-sans-glagolitic'
-cask 'caskroom/fonts/font-noto-sans-gothic'
-cask 'caskroom/fonts/font-noto-sans-gujarati'
-cask 'caskroom/fonts/font-noto-sans-gurmukhi'
-cask 'caskroom/fonts/font-noto-sans-hanunoo'
-cask 'caskroom/fonts/font-noto-sans-hecask'
-cask 'caskroom/fonts/font-noto-sans-imperial-aramaic'
-cask 'caskroom/fonts/font-noto-sans-inscriptional-pahlavi'
-cask 'caskroom/fonts/font-noto-sans-inscriptional-parthian'
-cask 'caskroom/fonts/font-noto-sans-javanese'
-cask 'caskroom/fonts/font-noto-sans-kaithi'
-cask 'caskroom/fonts/font-noto-sans-kannada'
-cask 'caskroom/fonts/font-noto-sans-kayah-li'
-cask 'caskroom/fonts/font-noto-sans-kharoshthi'
-cask 'caskroom/fonts/font-noto-sans-khmer'
-cask 'caskroom/fonts/font-noto-sans-lao'
-cask 'caskroom/fonts/font-noto-sans-lepcha'
-cask 'caskroom/fonts/font-noto-sans-limbu'
-cask 'caskroom/fonts/font-noto-sans-linear-b'
-cask 'caskroom/fonts/font-noto-sans-lisu'
-cask 'caskroom/fonts/font-noto-sans-lycian'
-cask 'caskroom/fonts/font-noto-sans-lydian'
-cask 'caskroom/fonts/font-noto-sans-malayalam'
-cask 'caskroom/fonts/font-noto-sans-mandaic'
-cask 'caskroom/fonts/font-noto-sans-meetei-mayek'
-cask 'caskroom/fonts/font-noto-sans-mongolian'
-cask 'caskroom/fonts/font-noto-sans-myanmar'
-cask 'caskroom/fonts/font-noto-sans-n-ko'
-cask 'caskroom/fonts/font-noto-sans-new-tai-lue'
-cask 'caskroom/fonts/font-noto-sans-ogham'
-cask 'caskroom/fonts/font-noto-sans-ol-chiki'
-cask 'caskroom/fonts/font-noto-sans-old-italic'
-cask 'caskroom/fonts/font-noto-sans-old-persian'
-cask 'caskroom/fonts/font-noto-sans-old-south-arabian'
-cask 'caskroom/fonts/font-noto-sans-old-turkic'
-cask 'caskroom/fonts/font-noto-sans-oriya'
-cask 'caskroom/fonts/font-noto-sans-osmanya'
-cask 'caskroom/fonts/font-noto-sans-phags-pa'
-cask 'caskroom/fonts/font-noto-sans-phoenician'
-cask 'caskroom/fonts/font-noto-sans-rejang'
-cask 'caskroom/fonts/font-noto-sans-runic'
-cask 'caskroom/fonts/font-noto-sans-samaritan'
-cask 'caskroom/fonts/font-noto-sans-saurashtra'
-cask 'caskroom/fonts/font-noto-sans-shavian'
-cask 'caskroom/fonts/font-noto-sans-sinhala'
-cask 'caskroom/fonts/font-noto-sans-sundanese'
-cask 'caskroom/fonts/font-noto-sans-syloti-nagri'
-cask 'caskroom/fonts/font-noto-sans-symbols'
-cask 'caskroom/fonts/font-noto-sans-syriac-eastern'
-cask 'caskroom/fonts/font-noto-sans-syriac-estrangela'
-cask 'caskroom/fonts/font-noto-sans-syriac-western'
-cask 'caskroom/fonts/font-noto-sans-tagalog'
-cask 'caskroom/fonts/font-noto-sans-tagbanwa'
-cask 'caskroom/fonts/font-noto-sans-tai-le'
-cask 'caskroom/fonts/font-noto-sans-tai-tham'
-cask 'caskroom/fonts/font-noto-sans-tai-viet'
-cask 'caskroom/fonts/font-noto-sans-tamil'
-cask 'caskroom/fonts/font-noto-sans-telugu'
-cask 'caskroom/fonts/font-noto-sans-thaana'
-cask 'caskroom/fonts/font-noto-sans-thai'
-cask 'caskroom/fonts/font-noto-sans-tibetan'
-cask 'caskroom/fonts/font-noto-sans-tifinagh'
-cask 'caskroom/fonts/font-noto-sans-ugaritic'
-cask 'caskroom/fonts/font-noto-sans-vai'
-cask 'caskroom/fonts/font-noto-sans-yi'
-cask 'caskroom/fonts/font-noto-sans'
-cask 'caskroom/fonts/font-noto-serif-armenian'
-cask 'caskroom/fonts/font-noto-serif-georgian'
-cask 'caskroom/fonts/font-noto-serif-khmer'
-cask 'caskroom/fonts/font-noto-serif-lao'
-cask 'caskroom/fonts/font-noto-serif-thai'
-cask 'caskroom/fonts/font-noto-serif'
-cask 'caskroom/fonts/font-nova-cut'
-cask 'caskroom/fonts/font-nova-flat'
-cask 'caskroom/fonts/font-nova-mono'
-cask 'caskroom/fonts/font-nova-oval'
-cask 'caskroom/fonts/font-nova-round'
-cask 'caskroom/fonts/font-nova-script'
-cask 'caskroom/fonts/font-nova-slim'
-cask 'caskroom/fonts/font-nova-square'
-cask 'caskroom/fonts/font-numans'
-cask 'caskroom/fonts/font-nunito'
-cask 'caskroom/fonts/font-nyashi'
-cask 'caskroom/fonts/font-ocra'
-cask 'caskroom/fonts/font-octicons'
-cask 'caskroom/fonts/font-odor-mean-chey'
-cask 'caskroom/fonts/font-office-code-pro'
-cask 'caskroom/fonts/font-offside'
-cask 'caskroom/fonts/font-old-standard-tt'
-cask 'caskroom/fonts/font-oldenburg'
-cask 'caskroom/fonts/font-oleo-script-swash-caps'
-cask 'caskroom/fonts/font-oleo-script'
-cask 'caskroom/fonts/font-open-iconic'
-cask 'caskroom/fonts/font-open-sans-condensed'
-cask 'caskroom/fonts/font-open-sans-hecask-condensed'
-cask 'caskroom/fonts/font-open-sans-hecask'
-cask 'caskroom/fonts/font-open-sans'
-cask 'caskroom/fonts/font-opendyslexic'
-cask 'caskroom/fonts/font-oranienbaum'
-cask 'caskroom/fonts/font-orbitron'
-cask 'caskroom/fonts/font-oregano'
-cask 'caskroom/fonts/font-orienta'
-cask 'caskroom/fonts/font-original-surfer'
-cask 'caskroom/fonts/font-oskiblackfoot'
-cask 'caskroom/fonts/font-oskidakelh'
-cask 'caskroom/fonts/font-oskidenea'
-cask 'caskroom/fonts/font-oskideneb'
-cask 'caskroom/fonts/font-oskidenec'
-cask 'caskroom/fonts/font-oskidenes'
-cask 'caskroom/fonts/font-oskieast'
-cask 'caskroom/fonts/font-oskiwest'
-cask 'caskroom/fonts/font-oswald'
-cask 'caskroom/fonts/font-over-the-rainbow'
-cask 'caskroom/fonts/font-overlock-sc'
-cask 'caskroom/fonts/font-overlock'
-cask 'caskroom/fonts/font-overpass'
-cask 'caskroom/fonts/font-ovo'
-cask 'caskroom/fonts/font-oxygen-mono'
-cask 'caskroom/fonts/font-oxygen'
-cask 'caskroom/fonts/font-pacifico'
-cask 'caskroom/fonts/font-padauk'
-cask 'caskroom/fonts/font-palemonas'
-cask 'caskroom/fonts/font-paprika'
-cask 'caskroom/fonts/font-parastoo'
-cask 'caskroom/fonts/font-parisienne'
-cask 'caskroom/fonts/font-passero-one'
-cask 'caskroom/fonts/font-passion-one'
-cask 'caskroom/fonts/font-pathway-gothic-one'
-cask 'caskroom/fonts/font-patrick-hand-sc'
-cask 'caskroom/fonts/font-patrick-hand'
-cask 'caskroom/fonts/font-patua-one'
-cask 'caskroom/fonts/font-paytone-one'
-cask 'caskroom/fonts/font-pecita'
-cask 'caskroom/fonts/font-penuturesu'
-cask 'caskroom/fonts/font-peralta'
-cask 'caskroom/fonts/font-permanent-marker'
-cask 'caskroom/fonts/font-petit-formal-script'
-cask 'caskroom/fonts/font-petrona'
-cask 'caskroom/fonts/font-phetsarath'
-cask 'caskroom/fonts/font-philosopher'
-cask 'caskroom/fonts/font-piedra'
-cask 'caskroom/fonts/font-pinyon-script'
-cask 'caskroom/fonts/font-pirata-one'
-cask 'caskroom/fonts/font-pitabek'
-cask 'caskroom/fonts/font-plaster'
-cask 'caskroom/fonts/font-play'
-cask 'caskroom/fonts/font-playball'
-cask 'caskroom/fonts/font-playfair-display-sc'
-cask 'caskroom/fonts/font-playfair-display'
-cask 'caskroom/fonts/font-podkova'
-cask 'caskroom/fonts/font-poetsenone'
-cask 'caskroom/fonts/font-poiret-one'
-cask 'caskroom/fonts/font-poller-one'
-cask 'caskroom/fonts/font-poly'
-cask 'caskroom/fonts/font-pompiere'
-cask 'caskroom/fonts/font-pontano-sans'
-cask 'caskroom/fonts/font-poppins'
-cask 'caskroom/fonts/font-port-lligat-sans'
-cask 'caskroom/fonts/font-port-lligat-slab'
-cask 'caskroom/fonts/font-prata'
-cask 'caskroom/fonts/font-preahvihear'
-cask 'caskroom/fonts/font-press-start2p'
-cask 'caskroom/fonts/font-prime'
-cask 'caskroom/fonts/font-prince-valiant'
-cask 'caskroom/fonts/font-princess-sofia'
-cask 'caskroom/fonts/font-prociono'
-cask 'caskroom/fonts/font-profontx'
-cask 'caskroom/fonts/font-prosto-one'
-cask 'caskroom/fonts/font-pt-mono'
-cask 'caskroom/fonts/font-pt-sans'
-cask 'caskroom/fonts/font-pt-serif'
-cask 'caskroom/fonts/font-puritan'
-cask 'caskroom/fonts/font-purple-purse'
-cask 'caskroom/fonts/font-qataban'
-cask 'caskroom/fonts/font-quando'
-cask 'caskroom/fonts/font-quantico'
-cask 'caskroom/fonts/font-quattrocento-sans'
-cask 'caskroom/fonts/font-quattrocento'
-cask 'caskroom/fonts/font-questrial'
-cask 'caskroom/fonts/font-quicksand'
-cask 'caskroom/fonts/font-quintessential'
-cask 'caskroom/fonts/font-quivira'
-cask 'caskroom/fonts/font-qwigley'
-cask 'caskroom/fonts/font-racing-sans-one'
-cask 'caskroom/fonts/font-radley'
-cask 'caskroom/fonts/font-rajdhani'
-cask 'caskroom/fonts/font-raleway-dots'
-cask 'caskroom/fonts/font-raleway'
-cask 'caskroom/fonts/font-rambla'
-cask 'caskroom/fonts/font-rammetto-one'
-cask 'caskroom/fonts/font-ranchers'
-cask 'caskroom/fonts/font-rancho'
-cask 'caskroom/fonts/font-rationale'
-cask 'caskroom/fonts/font-red-october'
-cask 'caskroom/fonts/font-redacted'
-cask 'caskroom/fonts/font-redressed'
-cask 'caskroom/fonts/font-reenie-beanie'
-cask 'caskroom/fonts/font-revalia'
-cask 'caskroom/fonts/font-ribeye-marrow'
-cask 'caskroom/fonts/font-ribeye'
-cask 'caskroom/fonts/font-ricty-diminished'
-cask 'caskroom/fonts/font-righteous'
-cask 'caskroom/fonts/font-risque'
-cask 'caskroom/fonts/font-roboto-condensed'
-cask 'caskroom/fonts/font-roboto-mono-for-powerline'
-cask 'caskroom/fonts/font-roboto-mono'
-cask 'caskroom/fonts/font-roboto-slab'
-cask 'caskroom/fonts/font-roboto'
-cask 'caskroom/fonts/font-rochester'
-cask 'caskroom/fonts/font-rock-salt'
-cask 'caskroom/fonts/font-rokkitt'
-cask 'caskroom/fonts/font-romanesco'
-cask 'caskroom/fonts/font-ropa-sans'
-cask 'caskroom/fonts/font-rosario'
-cask 'caskroom/fonts/font-rosarivo'
-cask 'caskroom/fonts/font-rotinonhsonni-sans'
-cask 'caskroom/fonts/font-rotinonhsonni-serif'
-cask 'caskroom/fonts/font-rouge-script'
-cask 'caskroom/fonts/font-rounded-m-plus'
-cask 'caskroom/fonts/font-rozha-one'
-cask 'caskroom/fonts/font-ruda'
-cask 'caskroom/fonts/font-rufina'
-cask 'caskroom/fonts/font-ruge-boogie'
-cask 'caskroom/fonts/font-ruluko'
-cask 'caskroom/fonts/font-rum-raisin'
-cask 'caskroom/fonts/font-rupakara'
-cask 'caskroom/fonts/font-ruslan-display'
-cask 'caskroom/fonts/font-russo-one'
-cask 'caskroom/fonts/font-ruthie'
-cask 'caskroom/fonts/font-rye'
-cask 'caskroom/fonts/font-sacramento'
-cask 'caskroom/fonts/font-sadagolthina'
-cask 'caskroom/fonts/font-sail'
-cask 'caskroom/fonts/font-salsa'
-cask 'caskroom/fonts/font-samim'
-cask 'caskroom/fonts/font-sanchez'
-cask 'caskroom/fonts/font-sancreek'
-cask 'caskroom/fonts/font-sansita-one'
-cask 'caskroom/fonts/font-sarina'
-cask 'caskroom/fonts/font-sarpanch'
-cask 'caskroom/fonts/font-satisfy'
-cask 'caskroom/fonts/font-scada'
-cask 'caskroom/fonts/font-scheherazade'
-cask 'caskroom/fonts/font-schoolbell'
-cask 'caskroom/fonts/font-seaweed-script'
-cask 'caskroom/fonts/font-seoulhangang'
-cask 'caskroom/fonts/font-seoulhangangcondensed'
-cask 'caskroom/fonts/font-sevillana'
-cask 'caskroom/fonts/font-seymour-one'
-cask 'caskroom/fonts/font-shabnam'
-cask 'caskroom/fonts/font-shadows-into-light-two'
-cask 'caskroom/fonts/font-shadows-into-light'
-cask 'caskroom/fonts/font-shanti'
-cask 'caskroom/fonts/font-share-tech-mono'
-cask 'caskroom/fonts/font-share-tech'
-cask 'caskroom/fonts/font-share'
-cask 'caskroom/fonts/font-shojumaru'
-cask 'caskroom/fonts/font-short-stack'
-cask 'caskroom/fonts/font-siemreap'
-cask 'caskroom/fonts/font-sigmar-one'
-cask 'caskroom/fonts/font-signika-negative'
-cask 'caskroom/fonts/font-signika'
-cask 'caskroom/fonts/font-silent-lips'
-cask 'caskroom/fonts/font-simonetta'
-cask 'caskroom/fonts/font-sinkin-sans'
-cask 'caskroom/fonts/font-sintony'
-cask 'caskroom/fonts/font-sirin-stencil'
-cask 'caskroom/fonts/font-six-caps'
-cask 'caskroom/fonts/font-skola-sans'
-cask 'caskroom/fonts/font-skranji'
-cask 'caskroom/fonts/font-slackey'
-cask 'caskroom/fonts/font-smokum'
-cask 'caskroom/fonts/font-smythe'
-cask 'caskroom/fonts/font-sniglet'
-cask 'caskroom/fonts/font-snippet'
-cask 'caskroom/fonts/font-snowburst-one'
-cask 'caskroom/fonts/font-sofadi-one'
-cask 'caskroom/fonts/font-sofia'
-cask 'caskroom/fonts/font-sonsie-one'
-cask 'caskroom/fonts/font-sorts-mill-goudy'
-cask 'caskroom/fonts/font-source-code-pro-for-powerline'
-cask 'caskroom/fonts/font-source-code-pro'
-cask 'caskroom/fonts/font-source-han-code-jp'
-cask 'caskroom/fonts/font-source-han-sans'
-cask 'caskroom/fonts/font-source-sans-pro'
-cask 'caskroom/fonts/font-source-serif-pro'
-cask 'caskroom/fonts/font-space-mono'
-cask 'caskroom/fonts/font-special-elite'
-cask 'caskroom/fonts/font-spicy-rice'
-cask 'caskroom/fonts/font-spinnaker'
-cask 'caskroom/fonts/font-spirax'
-cask 'caskroom/fonts/font-squada-one'
-cask 'caskroom/fonts/font-stalemate'
-cask 'caskroom/fonts/font-stalinist-one'
-cask 'caskroom/fonts/font-stardos-stencil'
-cask 'caskroom/fonts/font-stint-ultra-condensed'
-cask 'caskroom/fonts/font-stint-ultra-expanded'
-cask 'caskroom/fonts/font-stoke'
-cask 'caskroom/fonts/font-strait'
-cask 'caskroom/fonts/font-stroke'
-cask 'caskroom/fonts/font-sue-ellen-francisco'
-cask 'caskroom/fonts/font-sunshiney'
-cask 'caskroom/fonts/font-supermercado-one'
-cask 'caskroom/fonts/font-swanky-and-moo-moo'
-cask 'caskroom/fonts/font-symbola'
-cask 'caskroom/fonts/font-syncopate'
-cask 'caskroom/fonts/font-tai-le-valentinium'
-cask 'caskroom/fonts/font-takaoex'
-cask 'caskroom/fonts/font-tangerine'
-cask 'caskroom/fonts/font-taprom'
-cask 'caskroom/fonts/font-tauri'
-cask 'caskroom/fonts/font-teko'
-cask 'caskroom/fonts/font-telex'
-cask 'caskroom/fonts/font-tenor-sans'
-cask 'caskroom/fonts/font-terminus'
-cask 'caskroom/fonts/font-tex-gyre-adventor'
-cask 'caskroom/fonts/font-tex-gyre-bonum'
-cask 'caskroom/fonts/font-tex-gyre-chorus'
-cask 'caskroom/fonts/font-tex-gyre-cursor'
-cask 'caskroom/fonts/font-tex-gyre-heros'
-cask 'caskroom/fonts/font-tex-gyre-pagella-math'
-cask 'caskroom/fonts/font-tex-gyre-pagella'
-cask 'caskroom/fonts/font-tex-gyre-schola'
-cask 'caskroom/fonts/font-tex-gyre-termes'
-cask 'caskroom/fonts/font-text-me-one'
-cask 'caskroom/fonts/font-thabit'
-cask 'caskroom/fonts/font-the-girl-next-door'
-cask 'caskroom/fonts/font-tibetan-machine-uni'
-cask 'caskroom/fonts/font-tienne'
-cask 'caskroom/fonts/font-tillana'
-cask 'caskroom/fonts/font-times-new-roman'
-cask 'caskroom/fonts/font-tinos'
-cask 'caskroom/fonts/font-titan-one'
-cask 'caskroom/fonts/font-titillium-web'
-cask 'caskroom/fonts/font-trade-winds'
-cask 'caskroom/fonts/font-trebuchet-ms'
-cask 'caskroom/fonts/font-trocchi'
-cask 'caskroom/fonts/font-trochut'
-cask 'caskroom/fonts/font-trykker'
-cask 'caskroom/fonts/font-tuffy'
-cask 'caskroom/fonts/font-tulpen-one'
-cask 'caskroom/fonts/font-twitter-color-emoji'
-cask 'caskroom/fonts/font-ubuntu-mono-derivative-powerline'
-cask 'caskroom/fonts/font-ubuntu'
-cask 'caskroom/fonts/font-ultra'
-cask 'caskroom/fonts/font-uncial-antiqua'
-cask 'caskroom/fonts/font-underdog'
-cask 'caskroom/fonts/font-unica-one'
-cask 'caskroom/fonts/font-unifrakturcook'
-cask 'caskroom/fonts/font-unifrakturmaguntia'
-cask 'caskroom/fonts/font-unkempt'
-cask 'caskroom/fonts/font-unlock'
-cask 'caskroom/fonts/font-unna'
-cask 'caskroom/fonts/font-vampiro-one'
-cask 'caskroom/fonts/font-varela-round'
-cask 'caskroom/fonts/font-varela'
-cask 'caskroom/fonts/font-vast-shadow'
-cask 'caskroom/fonts/font-vazir-code'
-cask 'caskroom/fonts/font-vazir'
-cask 'caskroom/fonts/font-verdana'
-cask 'caskroom/fonts/font-vibur'
-cask 'caskroom/fonts/font-vidaloka'
-cask 'caskroom/fonts/font-viga'
-cask 'caskroom/fonts/font-voces'
-cask 'caskroom/fonts/font-volkhov'
-cask 'caskroom/fonts/font-vollkorn'
-cask 'caskroom/fonts/font-voltaire'
-cask 'caskroom/fonts/font-vt323'
-cask 'caskroom/fonts/font-waiting-for-the-sunrise'
-cask 'caskroom/fonts/font-wakor'
-cask 'caskroom/fonts/font-wallpoet'
-cask 'caskroom/fonts/font-walter-turncoat'
-cask 'caskroom/fonts/font-waltograph'
-cask 'caskroom/fonts/font-warnes'
-cask 'caskroom/fonts/font-webdings'
-cask 'caskroom/fonts/font-wellfleet'
-cask 'caskroom/fonts/font-wendy-one'
-cask 'caskroom/fonts/font-wenquanyi-micro-hei-lite'
-cask 'caskroom/fonts/font-wenquanyi-micro-hei'
-cask 'caskroom/fonts/font-wenquanyi-zen-hei'
-cask 'caskroom/fonts/font-wire-one'
-cask 'caskroom/fonts/font-work-sans'
-cask 'caskroom/fonts/font-xits'
-cask 'caskroom/fonts/font-yanone-kaffeesatz'
-cask 'caskroom/fonts/font-yellowtail'
-cask 'caskroom/fonts/font-yeseva-one'
-cask 'caskroom/fonts/font-yesteryear'
-cask 'caskroom/fonts/font-zeyada'
+# cask 'caskroom/fonts/font-3270'
+# cask 'caskroom/fonts/font-abeezee'
+# cask 'caskroom/fonts/font-abel'
+# cask 'caskroom/fonts/font-aboriginal-sans'
+# cask 'caskroom/fonts/font-aboriginal-serif'
+# cask 'caskroom/fonts/font-abril-fatface'
+# cask 'caskroom/fonts/font-aclonica'
+# cask 'caskroom/fonts/font-acme'
+# cask 'caskroom/fonts/font-actor'
+# cask 'caskroom/fonts/font-adamina'
+# cask 'caskroom/fonts/font-adinatha-tamil-brahmi'
+# cask 'caskroom/fonts/font-advent-pro'
+# cask 'caskroom/fonts/font-african-sans'
+# cask 'caskroom/fonts/font-african-serif'
+# cask 'caskroom/fonts/font-aguafina-script'
+# cask 'caskroom/fonts/font-ahuramzda'
+# cask 'caskroom/fonts/font-aileron'
+# cask 'caskroom/fonts/font-akronim'
+# cask 'caskroom/fonts/font-aladin'
+# cask 'caskroom/fonts/font-aldrich'
+# cask 'caskroom/fonts/font-alef'
+# cask 'caskroom/fonts/font-alegreya-sans-sc'
+# cask 'caskroom/fonts/font-alegreya-sans'
+# cask 'caskroom/fonts/font-alegreya-sc'
+# cask 'caskroom/fonts/font-alegreya'
+# cask 'caskroom/fonts/font-aleo'
+# cask 'caskroom/fonts/font-alex-brush'
+# cask 'caskroom/fonts/font-alfa-slab-one'
+# cask 'caskroom/fonts/font-alice'
+# cask 'caskroom/fonts/font-alike-angular'
+# cask 'caskroom/fonts/font-alike'
+# cask 'caskroom/fonts/font-allan'
+# cask 'caskroom/fonts/font-allerta-stencil'
+# cask 'caskroom/fonts/font-allerta'
+# cask 'caskroom/fonts/font-allura'
+# cask 'caskroom/fonts/font-almendra-display'
+# cask 'caskroom/fonts/font-almendra-sc'
+# cask 'caskroom/fonts/font-almendra'
+# cask 'caskroom/fonts/font-amarante'
+# cask 'caskroom/fonts/font-amaranth'
+# cask 'caskroom/fonts/font-amatic-sc'
+# cask 'caskroom/fonts/font-amethysta'
+# cask 'caskroom/fonts/font-amiri'
+# cask 'caskroom/fonts/font-anaheim'
+# cask 'caskroom/fonts/font-andada-sc'
+# cask 'caskroom/fonts/font-andada'
+# cask 'caskroom/fonts/font-andagii'
+# cask 'caskroom/fonts/font-andale-mono'
+# cask 'caskroom/fonts/font-andika'
+# cask 'caskroom/fonts/font-angkor'
+# cask 'caskroom/fonts/font-anka-coder'
+# cask 'caskroom/fonts/font-annie-use-your-telescope'
+# cask 'caskroom/fonts/font-anonymice-powerline'
+# cask 'caskroom/fonts/font-anonymous-pro'
+# cask 'caskroom/fonts/font-antic-didone'
+# cask 'caskroom/fonts/font-antic-slab'
+# cask 'caskroom/fonts/font-antic'
+# cask 'caskroom/fonts/font-antinoou'
+# cask 'caskroom/fonts/font-anton'
+# cask 'caskroom/fonts/font-arapey'
+# cask 'caskroom/fonts/font-arbutus-slab'
+# cask 'caskroom/fonts/font-arbutus'
+# cask 'caskroom/fonts/font-architects-daughter'
+# cask 'caskroom/fonts/font-archivo-black'
+# cask 'caskroom/fonts/font-archivo-narrow'
+# cask 'caskroom/fonts/font-arial-black'
+# cask 'caskroom/fonts/font-arial'
+# cask 'caskroom/fonts/font-arimo'
+# cask 'caskroom/fonts/font-arizonia'
+# cask 'caskroom/fonts/font-armata'
+# cask 'caskroom/fonts/font-artifika'
+# cask 'caskroom/fonts/font-arvo'
+# cask 'caskroom/fonts/font-asap'
+# cask 'caskroom/fonts/font-asset'
+# cask 'caskroom/fonts/font-astloch'
+# cask 'caskroom/fonts/font-asul'
+# cask 'caskroom/fonts/font-atomic-age'
+# cask 'caskroom/fonts/font-aubrey'
+# cask 'caskroom/fonts/font-audiowide'
+# cask 'caskroom/fonts/font-autour-one'
+# cask 'caskroom/fonts/font-average-sans'
+# cask 'caskroom/fonts/font-average'
+# cask 'caskroom/fonts/font-averia-gruesa-libre'
+# cask 'caskroom/fonts/font-averia-libre'
+# cask 'caskroom/fonts/font-averia-sans-libre'
+# cask 'caskroom/fonts/font-averia-serif-libre'
+# cask 'caskroom/fonts/font-awesome-terminal-fonts'
+# cask 'caskroom/fonts/font-babelstone-han'
+# cask 'caskroom/fonts/font-babelstone-modern'
+# cask 'caskroom/fonts/font-bad-script'
+# cask 'caskroom/fonts/font-baloo'
+# cask 'caskroom/fonts/font-balthazar'
+# cask 'caskroom/fonts/font-bangers'
+# cask 'caskroom/fonts/font-baron'
+# cask 'caskroom/fonts/font-basic'
+# cask 'caskroom/fonts/font-battambang'
+# cask 'caskroom/fonts/font-baumans'
+# cask 'caskroom/fonts/font-bayon'
+# cask 'caskroom/fonts/font-bebas-neue'
+# cask 'caskroom/fonts/font-belgrano'
+# cask 'caskroom/fonts/font-belleza'
+# cask 'caskroom/fonts/font-benchnine'
+# cask 'caskroom/fonts/font-bentham'
+# cask 'caskroom/fonts/font-berkshire-swash'
+# cask 'caskroom/fonts/font-bevan'
+# cask 'caskroom/fonts/font-bf-tiny-hand'
+# cask 'caskroom/fonts/font-bigelow-rules'
+# cask 'caskroom/fonts/font-bigshot-one'
+# cask 'caskroom/fonts/font-bilbo-swash-caps'
+# cask 'caskroom/fonts/font-bilbo'
+# cask 'caskroom/fonts/font-bitstream-vera'
+# cask 'caskroom/fonts/font-bitter'
+# cask 'caskroom/fonts/font-black-ops-one'
+# cask 'caskroom/fonts/font-blokk-neue'
+# cask 'caskroom/fonts/font-bokor'
+# cask 'caskroom/fonts/font-bonbon'
+# cask 'caskroom/fonts/font-boogaloo'
+# cask 'caskroom/fonts/font-bowlby-one-sc'
+# cask 'caskroom/fonts/font-bowlby-one'
+# cask 'caskroom/fonts/font-bravura'
+# cask 'caskroom/fonts/font-brawler'
+# cask 'caskroom/fonts/font-bree-serif'
+# cask 'caskroom/fonts/font-bubblegum-sans'
+# cask 'caskroom/fonts/font-bubbler-one'
+# cask 'caskroom/fonts/font-buda'
+# cask 'caskroom/fonts/font-buenard'
+# cask 'caskroom/fonts/font-bukyvede-bold'
+# cask 'caskroom/fonts/font-bukyvede-italic'
+# cask 'caskroom/fonts/font-bukyvede-regular'
+# cask 'caskroom/fonts/font-bungee'
+# cask 'caskroom/fonts/font-butcherman'
+# cask 'caskroom/fonts/font-butler'
+# cask 'caskroom/fonts/font-butterfly-kids'
+# cask 'caskroom/fonts/font-cabin-condensed'
+# cask 'caskroom/fonts/font-cabin-sketch'
+# cask 'caskroom/fonts/font-cabin'
+# cask 'caskroom/fonts/font-caesar-dressing'
+# cask 'caskroom/fonts/font-cagliostro'
+# cask 'caskroom/fonts/font-calligraffitti'
+# cask 'caskroom/fonts/font-cambo'
+# cask 'caskroom/fonts/font-camingocode'
+# cask 'caskroom/fonts/font-candal'
+# cask 'caskroom/fonts/font-cantarell'
+# cask 'caskroom/fonts/font-cantata-one'
+# cask 'caskroom/fonts/font-canter'
+# cask 'caskroom/fonts/font-cantora-one'
+# cask 'caskroom/fonts/font-capriola'
+# cask 'caskroom/fonts/font-cardo'
+# cask 'caskroom/fonts/font-carme'
+# cask 'caskroom/fonts/font-carrois-gothic-sc'
+# cask 'caskroom/fonts/font-carrois-gothic'
+# cask 'caskroom/fonts/font-carter-one'
+# cask 'caskroom/fonts/font-caudex'
+# cask 'caskroom/fonts/font-cedarville-cursive'
+# cask 'caskroom/fonts/font-ceviche-one'
+# cask 'caskroom/fonts/font-changa-one'
+# cask 'caskroom/fonts/font-chango'
+# cask 'caskroom/fonts/font-chapbook'
+# cask 'caskroom/fonts/font-charis-sil'
+# cask 'caskroom/fonts/font-charter'
+# cask 'caskroom/fonts/font-chau-philomene-one'
+# cask 'caskroom/fonts/font-chela-one'
+# cask 'caskroom/fonts/font-chelsea-market'
+# cask 'caskroom/fonts/font-chenla'
+# cask 'caskroom/fonts/font-cherry-cream-soda'
+# cask 'caskroom/fonts/font-cherry-swash'
+# cask 'caskroom/fonts/font-chewy'
+# cask 'caskroom/fonts/font-chicle'
+# cask 'caskroom/fonts/font-chivo'
+# cask 'caskroom/fonts/font-cinzel-decorative'
+# cask 'caskroom/fonts/font-cinzel'
+# cask 'caskroom/fonts/font-clear-sans'
+# cask 'caskroom/fonts/font-clicker-script'
+# cask 'caskroom/fonts/font-coda-caption'
+# cask 'caskroom/fonts/font-coda'
+# cask 'caskroom/fonts/font-code'
+# cask 'caskroom/fonts/font-code2000'
+# cask 'caskroom/fonts/font-code2001'
+# cask 'caskroom/fonts/font-code2002'
+# cask 'caskroom/fonts/font-codystar'
+# cask 'caskroom/fonts/font-combo'
+# cask 'caskroom/fonts/font-comfortaa'
+# cask 'caskroom/fonts/font-comic-neue'
+# cask 'caskroom/fonts/font-comic-sans-ms'
+# cask 'caskroom/fonts/font-coming-soon'
+# cask 'caskroom/fonts/font-computer-modern'
+# cask 'caskroom/fonts/font-conakry'
+# cask 'caskroom/fonts/font-concert-one'
+# cask 'caskroom/fonts/font-condiment'
+# cask 'caskroom/fonts/font-consolas-for-powerline'
+# cask 'caskroom/fonts/font-constructium'
+# cask 'caskroom/fonts/font-content'
+# cask 'caskroom/fonts/font-contrail-one'
+# cask 'caskroom/fonts/font-convergence'
+# cask 'caskroom/fonts/font-cookie'
+# cask 'caskroom/fonts/font-copse'
+# cask 'caskroom/fonts/font-corben'
+# cask 'caskroom/fonts/font-courgette'
+# cask 'caskroom/fonts/font-courier-new'
+# cask 'caskroom/fonts/font-courier-prime'
+# cask 'caskroom/fonts/font-cousine'
+# cask 'caskroom/fonts/font-coustard'
+# cask 'caskroom/fonts/font-covered-by-your-grace'
+# cask 'caskroom/fonts/font-crafty-girls'
+# cask 'caskroom/fonts/font-creepster'
+# cask 'caskroom/fonts/font-crete-round'
+# cask 'caskroom/fonts/font-crimson-text'
+# cask 'caskroom/fonts/font-croissant-one'
+# cask 'caskroom/fonts/font-crushed'
+# cask 'caskroom/fonts/font-cuprum'
+# cask 'caskroom/fonts/font-cutive-mono'
+# cask 'caskroom/fonts/font-cutive'
+# cask 'caskroom/fonts/font-cwtex-q'
+# cask 'caskroom/fonts/font-d2coding'
+# cask 'caskroom/fonts/font-damion'
+# cask 'caskroom/fonts/font-dancing-script'
+# cask 'caskroom/fonts/font-dangrek'
+# cask 'caskroom/fonts/font-dashicons'
+# cask 'caskroom/fonts/font-dawning-of-a-new-day'
+# cask 'caskroom/fonts/font-days-one'
+# cask 'caskroom/fonts/font-dejavu-sans-mono-for-powerline'
+# cask 'caskroom/fonts/font-dejavu-sans'
+# cask 'caskroom/fonts/font-delius-swash-caps'
+# cask 'caskroom/fonts/font-delius-unicase'
+# cask 'caskroom/fonts/font-delius'
+# cask 'caskroom/fonts/font-della-respira'
+# cask 'caskroom/fonts/font-denk-one'
+# cask 'caskroom/fonts/font-devicons'
+# cask 'caskroom/fonts/font-devonshire'
+# cask 'caskroom/fonts/font-dhyana'
+# cask 'caskroom/fonts/font-didact-gothic'
+# cask 'caskroom/fonts/font-digohweli-old-do'
+# cask 'caskroom/fonts/font-digohweli'
+# cask 'caskroom/fonts/font-diplomata-sc'
+# cask 'caskroom/fonts/font-diplomata'
+# cask 'caskroom/fonts/font-disclaimer'
+# cask 'caskroom/fonts/font-domine'
+# cask 'caskroom/fonts/font-donegal-one'
+# cask 'caskroom/fonts/font-doppio-one'
+# cask 'caskroom/fonts/font-dorsa'
+# cask 'caskroom/fonts/font-dosis'
+# cask 'caskroom/fonts/font-dr-sugiyama'
+# cask 'caskroom/fonts/font-droid-arabic-kufi'
+# cask 'caskroom/fonts/font-droid-arabic-naskh'
+# cask 'caskroom/fonts/font-droid-sans-ethiopic'
+# cask 'caskroom/fonts/font-droid-sans-mono-for-powerline'
+# cask 'caskroom/fonts/font-droid-sans-mono'
+# cask 'caskroom/fonts/font-droid-sans-tamil'
+# cask 'caskroom/fonts/font-droid-sans-thai'
+# cask 'caskroom/fonts/font-droid-sans'
+# cask 'caskroom/fonts/font-droid-serif-thai'
+# cask 'caskroom/fonts/font-droid-serif'
+# cask 'caskroom/fonts/font-dukor'
+# cask 'caskroom/fonts/font-duru-sans'
+# cask 'caskroom/fonts/font-dynalight'
+# cask 'caskroom/fonts/font-eagle-lake'
+# cask 'caskroom/fonts/font-eater'
+# cask 'caskroom/fonts/font-eb-garamond'
+# cask 'caskroom/fonts/font-economica'
+# cask 'caskroom/fonts/font-edlo'
+# cask 'caskroom/fonts/font-eeyek-unicode'
+# cask 'caskroom/fonts/font-electrolize'
+# cask 'caskroom/fonts/font-elsie-swash-caps'
+# cask 'caskroom/fonts/font-elsie'
+# cask 'caskroom/fonts/font-emblema-one'
+# cask 'caskroom/fonts/font-emilys-candy'
+# cask 'caskroom/fonts/font-engagement'
+# cask 'caskroom/fonts/font-englebert'
+# cask 'caskroom/fonts/font-enriqueta'
+# cask 'caskroom/fonts/font-erica-one'
+# cask 'caskroom/fonts/font-esteban'
+# cask 'caskroom/fonts/font-et-book'
+# cask 'caskroom/fonts/font-euphoria-script'
+# cask 'caskroom/fonts/font-everson-mono'
+# cask 'caskroom/fonts/font-ewert'
+# cask 'caskroom/fonts/font-exo'
+# cask 'caskroom/fonts/font-exo2'
+# cask 'caskroom/fonts/font-expletus-sans'
+# cask 'caskroom/fonts/font-ezra-sil'
+# cask 'caskroom/fonts/font-fairfax'
+# cask 'caskroom/fonts/font-fantasque-sans-mono'
+# cask 'caskroom/fonts/font-fanwood-text'
+# cask 'caskroom/fonts/font-fascinate-inline'
+# cask 'caskroom/fonts/font-fascinate'
+# cask 'caskroom/fonts/font-faster-one'
+# cask 'caskroom/fonts/font-fasthand'
+# cask 'caskroom/fonts/font-fauna-one'
+# cask 'caskroom/fonts/font-federant'
+# cask 'caskroom/fonts/font-federo'
+# cask 'caskroom/fonts/font-felipa'
+# cask 'caskroom/fonts/font-fenix'
+# cask 'caskroom/fonts/font-finger-paint'
+# cask 'caskroom/fonts/font-fira-code'
+# cask 'caskroom/fonts/font-fira-mono-for-powerline'
+# cask 'caskroom/fonts/font-fira-mono'
+# cask 'caskroom/fonts/font-fira-sans'
+# cask 'caskroom/fonts/font-firacode-nerd-font-mono'
+# cask 'caskroom/fonts/font-firacode-nerd-font'
+# cask 'caskroom/fonts/font-fjalla-one'
+# cask 'caskroom/fonts/font-fjord-one'
+# cask 'caskroom/fonts/font-flamenco'
+# cask 'caskroom/fonts/font-flavors'
+# cask 'caskroom/fonts/font-fondamento'
+# cask 'caskroom/fonts/font-fontawesome'
+# cask 'caskroom/fonts/font-fontdiner-swanky'
+# cask 'caskroom/fonts/font-forum'
+# cask 'caskroom/fonts/font-foundation-icons'
+# cask 'caskroom/fonts/font-francois-one'
+# cask 'caskroom/fonts/font-freckle-face'
+# cask 'caskroom/fonts/font-fredericka-the-great'
+# cask 'caskroom/fonts/font-fredoka-one'
+# cask 'caskroom/fonts/font-free-hk-kai'
+# cask 'caskroom/fonts/font-freehand'
+# cask 'caskroom/fonts/font-freesans'
+# cask 'caskroom/fonts/font-fresca'
+# cask 'caskroom/fonts/font-frijole'
+# cask 'caskroom/fonts/font-fruktur'
+# cask 'caskroom/fonts/font-fugaz-one'
+# cask 'caskroom/fonts/font-gabriela'
+# cask 'caskroom/fonts/font-gafata'
+# cask 'caskroom/fonts/font-galdeano'
+# cask 'caskroom/fonts/font-galindo'
+# cask 'caskroom/fonts/font-gandom'
+# cask 'caskroom/fonts/font-genjyuugothic-l'
+# cask 'caskroom/fonts/font-genjyuugothic-x'
+# cask 'caskroom/fonts/font-genjyuugothic'
+# cask 'caskroom/fonts/font-genshingothic'
+# cask 'caskroom/fonts/font-gentium-basic'
+# cask 'caskroom/fonts/font-gentium-book-basic'
+# cask 'caskroom/fonts/font-gentium-plus'
+# cask 'caskroom/fonts/font-geo'
+# cask 'caskroom/fonts/font-georgia'
+# cask 'caskroom/fonts/font-geostar-fill'
+# cask 'caskroom/fonts/font-geostar'
+# cask 'caskroom/fonts/font-germania-one'
+# cask 'caskroom/fonts/font-gfs-didot'
+# cask 'caskroom/fonts/font-gfs-neohellenic'
+# cask 'caskroom/fonts/font-gidole'
+# cask 'caskroom/fonts/font-gilda-display'
+# cask 'caskroom/fonts/font-give-you-glory'
+# cask 'caskroom/fonts/font-glass-antiqua'
+# cask 'caskroom/fonts/font-glegoo'
+# cask 'caskroom/fonts/font-glober'
+# cask 'caskroom/fonts/font-gloria-hallelujah'
+# cask 'caskroom/fonts/font-gnu-unifont'
+# cask 'caskroom/fonts/font-go-medium'
+# cask 'caskroom/fonts/font-go-mono'
+# cask 'caskroom/fonts/font-go'
+# cask 'caskroom/fonts/font-goblin-one'
+# cask 'caskroom/fonts/font-gochi-hand'
+# cask 'caskroom/fonts/font-gorditas'
+# cask 'caskroom/fonts/font-goudy-bookletter1911'
+# cask 'caskroom/fonts/font-graduate'
+# cask 'caskroom/fonts/font-grand-hotel'
+# cask 'caskroom/fonts/font-gravitas-one'
+# cask 'caskroom/fonts/font-great-vibes'
+# cask 'caskroom/fonts/font-griffy'
+# cask 'caskroom/fonts/font-gruppo'
+# cask 'caskroom/fonts/font-gudea'
+# cask 'caskroom/fonts/font-habibi'
+# cask 'caskroom/fonts/font-hack-nerd-font'
+# cask 'caskroom/fonts/font-hack'
+# cask 'caskroom/fonts/font-halant'
+# cask 'caskroom/fonts/font-hammersmith-one'
+# cask 'caskroom/fonts/font-han-nom-a'
+# cask 'caskroom/fonts/font-hanalei-fill'
+# cask 'caskroom/fonts/font-hanalei'
+# cask 'caskroom/fonts/font-hanamina'
+# cask 'caskroom/fonts/font-handlee'
+# cask 'caskroom/fonts/font-hanuman'
+# cask 'caskroom/fonts/font-happy-monkey'
+# cask 'caskroom/fonts/font-hasklig'
+# cask 'caskroom/fonts/font-headland-one'
+# cask 'caskroom/fonts/font-henny-penny'
+# cask 'caskroom/fonts/font-hermeneus-one'
+# cask 'caskroom/fonts/font-hermit'
+# cask 'caskroom/fonts/font-herr-von-muellerhoff'
+# cask 'caskroom/fonts/font-hind'
+# cask 'caskroom/fonts/font-holtwood-one-sc'
+# cask 'caskroom/fonts/font-homemade-apple'
+# cask 'caskroom/fonts/font-homenaje'
+# cask 'caskroom/fonts/font-hyppolit'
+# cask 'caskroom/fonts/font-iceberg'
+# cask 'caskroom/fonts/font-iceland'
+# cask 'caskroom/fonts/font-icomoon'
+# cask 'caskroom/fonts/font-idealist-sans'
+# cask 'caskroom/fonts/font-im-fell-double-pica-sc'
+# cask 'caskroom/fonts/font-im-fell-double-pica'
+# cask 'caskroom/fonts/font-im-fell-dw-pica-sc'
+# cask 'caskroom/fonts/font-im-fell-dw-pica'
+# cask 'caskroom/fonts/font-im-fell-english-sc'
+# cask 'caskroom/fonts/font-im-fell-english'
+# cask 'caskroom/fonts/font-im-fell-french-canon-sc'
+# cask 'caskroom/fonts/font-im-fell-french-canon'
+# cask 'caskroom/fonts/font-im-fell-great-primer-sc'
+# cask 'caskroom/fonts/font-im-fell-great-primer'
+# cask 'caskroom/fonts/font-impact'
+# cask 'caskroom/fonts/font-imprima'
+# cask 'caskroom/fonts/font-inconsolata-dz-for-powerline'
+# cask 'caskroom/fonts/font-inconsolata-dz'
+# cask 'caskroom/fonts/font-inconsolata-for-powerline'
+# cask 'caskroom/fonts/font-inconsolata-g-for-powerline'
+# cask 'caskroom/fonts/font-inconsolata-lgc'
+# cask 'caskroom/fonts/font-inconsolata'
+# cask 'caskroom/fonts/font-inder'
+# cask 'caskroom/fonts/font-indie-flower'
+# cask 'caskroom/fonts/font-inika'
+# cask 'caskroom/fonts/font-input'
+# cask 'caskroom/fonts/font-ionicons'
+# cask 'caskroom/fonts/font-iosevka'
+# cask 'caskroom/fonts/font-iranian-sans'
+# cask 'caskroom/fonts/font-iranian-serif'
+# cask 'caskroom/fonts/font-irish-grover'
+# cask 'caskroom/fonts/font-istok-web'
+# cask 'caskroom/fonts/font-italiana'
+# cask 'caskroom/fonts/font-italianno'
+# cask 'caskroom/fonts/font-jaapokki'
+# cask 'caskroom/fonts/font-jacques-francois-shadow'
+# cask 'caskroom/fonts/font-jacques-francois'
+# cask 'caskroom/fonts/font-jim-nightshade'
+# cask 'caskroom/fonts/font-jockey-one'
+# cask 'caskroom/fonts/font-jolly-lodger'
+# cask 'caskroom/fonts/font-josefin-sans'
+# cask 'caskroom/fonts/font-josefin-slab'
+# cask 'caskroom/fonts/font-joti-one'
+# cask 'caskroom/fonts/font-jsmath-cmbx10'
+# cask 'caskroom/fonts/font-judson'
+# cask 'caskroom/fonts/font-julee'
+# cask 'caskroom/fonts/font-julius-sans-one'
+# cask 'caskroom/fonts/font-junge'
+# cask 'caskroom/fonts/font-junicode'
+# cask 'caskroom/fonts/font-jura'
+# cask 'caskroom/fonts/font-just-another-hand'
+# cask 'caskroom/fonts/font-just-me-again-down-here'
+# cask 'caskroom/fonts/font-kacstone'
+# cask 'caskroom/fonts/font-kalam'
+# cask 'caskroom/fonts/font-kameron'
+# cask 'caskroom/fonts/font-kantumruy'
+# cask 'caskroom/fonts/font-karla-tamil-inclined'
+# cask 'caskroom/fonts/font-karla-tamil-upright'
+# cask 'caskroom/fonts/font-karla'
+# cask 'caskroom/fonts/font-karma'
+# cask 'caskroom/fonts/font-kaushan-script'
+# cask 'caskroom/fonts/font-kavoon'
+# cask 'caskroom/fonts/font-kawkab-mono'
+# cask 'caskroom/fonts/font-kayases'
+# cask 'caskroom/fonts/font-kdam-thmor'
+# cask 'caskroom/fonts/font-keania-one'
+# cask 'caskroom/fonts/font-keep-calm'
+# cask 'caskroom/fonts/font-kelly-slab'
+# cask 'caskroom/fonts/font-kenia'
+# cask 'caskroom/fonts/font-khand'
+# cask 'caskroom/fonts/font-khmer'
+# cask 'caskroom/fonts/font-kisiska'
+# cask 'caskroom/fonts/font-kite-one'
+# cask 'caskroom/fonts/font-knewave'
+# cask 'caskroom/fonts/font-koruri'
+# cask 'caskroom/fonts/font-kotta-one'
+# cask 'caskroom/fonts/font-koulen'
+# cask 'caskroom/fonts/font-kranky'
+# cask 'caskroom/fonts/font-kreon'
+# cask 'caskroom/fonts/font-kristi'
+# cask 'caskroom/fonts/font-krona-one'
+# cask 'caskroom/fonts/font-la-belle-aurore'
+# cask 'caskroom/fonts/font-laila'
+# cask 'caskroom/fonts/font-lalezar'
+# cask 'caskroom/fonts/font-lancelot'
+# cask 'caskroom/fonts/font-lateef'
+# cask 'caskroom/fonts/font-latin-modern-math'
+# cask 'caskroom/fonts/font-latin-modern'
+# cask 'caskroom/fonts/font-lato'
+# cask 'caskroom/fonts/font-league-gothic'
+# cask 'caskroom/fonts/font-league-script'
+# cask 'caskroom/fonts/font-league-spartan'
+# cask 'caskroom/fonts/font-leckerli-one'
+# cask 'caskroom/fonts/font-ledger'
+# cask 'caskroom/fonts/font-lekton'
+# cask 'caskroom/fonts/font-lemon'
+# cask 'caskroom/fonts/font-liberation-mono-for-powerline'
+# cask 'caskroom/fonts/font-liberation-sans'
+# cask 'caskroom/fonts/font-libertinus'
+# cask 'caskroom/fonts/font-libre-baskerville'
+# cask 'caskroom/fonts/font-libre-caslon-text'
+# cask 'caskroom/fonts/font-libre-franklin'
+# cask 'caskroom/fonts/font-life-savers'
+# cask 'caskroom/fonts/font-ligature-symbols'
+# cask 'caskroom/fonts/font-lilita-one'
+# cask 'caskroom/fonts/font-lily-script-one'
+# cask 'caskroom/fonts/font-limelight'
+# cask 'caskroom/fonts/font-linden-hill'
+# cask 'caskroom/fonts/font-linux-biolinum'
+# cask 'caskroom/fonts/font-linux-libertine'
+# cask 'caskroom/fonts/font-lisutzimu'
+# cask 'caskroom/fonts/font-lobster-two'
+# cask 'caskroom/fonts/font-lobster'
+# cask 'caskroom/fonts/font-lohit-assamese'
+# cask 'caskroom/fonts/font-lohit-bengali'
+# cask 'caskroom/fonts/font-lohit-devanagari'
+# cask 'caskroom/fonts/font-lohit-gujarati'
+# cask 'caskroom/fonts/font-lohit-kannada'
+# cask 'caskroom/fonts/font-lohit-malayalam'
+# cask 'caskroom/fonts/font-lohit-marathi'
+# cask 'caskroom/fonts/font-lohit-nepali'
+# cask 'caskroom/fonts/font-lohit-oriya'
+# cask 'caskroom/fonts/font-lohit-punjabi'
+# cask 'caskroom/fonts/font-lohit-tamil-classical'
+# cask 'caskroom/fonts/font-lohit-tamil'
+# cask 'caskroom/fonts/font-lohit-telugu'
+# cask 'caskroom/fonts/font-londrina-outline'
+# cask 'caskroom/fonts/font-londrina-shadow'
+# cask 'caskroom/fonts/font-londrina-sketch'
+# cask 'caskroom/fonts/font-londrina-solid'
+# cask 'caskroom/fonts/font-lora'
+# cask 'caskroom/fonts/font-love-ya-like-a-sister'
+# cask 'caskroom/fonts/font-loved-by-the-king'
+# cask 'caskroom/fonts/font-lovers-quarrel'
+# cask 'caskroom/fonts/font-luckiest-guy'
+# cask 'caskroom/fonts/font-luculent'
+# cask 'caskroom/fonts/font-lusitana'
+# cask 'caskroom/fonts/font-lustria'
+# cask 'caskroom/fonts/font-m-plus'
+# cask 'caskroom/fonts/font-macondo-swash-caps'
+# cask 'caskroom/fonts/font-macondo'
+# cask 'caskroom/fonts/font-magra'
+# cask 'caskroom/fonts/font-maiden-orange'
+# cask 'caskroom/fonts/font-mako'
+# cask 'caskroom/fonts/font-marcellus-sc'
+# cask 'caskroom/fonts/font-marcellus'
+# cask 'caskroom/fonts/font-marck-script'
+# cask 'caskroom/fonts/font-margarine'
+# cask 'caskroom/fonts/font-marko-one'
+# cask 'caskroom/fonts/font-marmelad'
+# cask 'caskroom/fonts/font-marta'
+# cask 'caskroom/fonts/font-marvel'
+# cask 'caskroom/fonts/font-masinahikan-dene'
+# cask 'caskroom/fonts/font-masinahikan'
+# cask 'caskroom/fonts/font-mate-sc'
+# cask 'caskroom/fonts/font-mate'
+# cask 'caskroom/fonts/font-material-icons'
+# cask 'caskroom/fonts/font-materialdesignicons-webfont'
+# cask 'caskroom/fonts/font-maven-pro'
+# cask 'caskroom/fonts/font-mclaren'
+# cask 'caskroom/fonts/font-meddon'
+# cask 'caskroom/fonts/font-medievalsharp'
+# cask 'caskroom/fonts/font-medula-one'
+# cask 'caskroom/fonts/font-megrim'
+# cask 'caskroom/fonts/font-meie-script'
+# cask 'caskroom/fonts/font-menlo-for-powerline'
+# cask 'caskroom/fonts/font-merienda-one'
+# cask 'caskroom/fonts/font-merienda'
+# cask 'caskroom/fonts/font-merriweather-sans'
+# cask 'caskroom/fonts/font-merriweather'
+# cask 'caskroom/fonts/font-meslo-lg-for-powerline'
+# cask 'caskroom/fonts/font-metal-mania'
+# cask 'caskroom/fonts/font-metal'
+# cask 'caskroom/fonts/font-metamorphous'
+# cask 'caskroom/fonts/font-metrophobic'
+# cask 'caskroom/fonts/font-mfizz'
+# cask 'caskroom/fonts/font-miao-unicode'
+# cask 'caskroom/fonts/font-michroma'
+# cask 'caskroom/fonts/font-migmix-1m'
+# cask 'caskroom/fonts/font-migmix-1p'
+# cask 'caskroom/fonts/font-migmix-2m'
+# cask 'caskroom/fonts/font-migmix-2p'
+# cask 'caskroom/fonts/font-migu-1c'
+# cask 'caskroom/fonts/font-migu-1m'
+# cask 'caskroom/fonts/font-migu-1p'
+# cask 'caskroom/fonts/font-migu-2m'
+# cask 'caskroom/fonts/font-milonga'
+# cask 'caskroom/fonts/font-miltonian-tattoo'
+# cask 'caskroom/fonts/font-miltonian'
+# cask 'caskroom/fonts/font-miniver'
+# cask 'caskroom/fonts/font-miss-fajardose'
+# cask 'caskroom/fonts/font-modern-antiqua'
+# cask 'caskroom/fonts/font-molengo'
+# cask 'caskroom/fonts/font-molle'
+# cask 'caskroom/fonts/font-monda'
+# cask 'caskroom/fonts/font-monofett'
+# cask 'caskroom/fonts/font-monofur-for-powerline'
+# cask 'caskroom/fonts/font-monofur'
+# cask 'caskroom/fonts/font-monoid'
+# cask 'caskroom/fonts/font-monoisome'
+# cask 'caskroom/fonts/font-mononoki'
+# cask 'caskroom/fonts/font-monoton'
+# cask 'caskroom/fonts/font-monsieur-la-doulaise'
+# cask 'caskroom/fonts/font-montaga'
+# cask 'caskroom/fonts/font-montez'
+# cask 'caskroom/fonts/font-montserrat-alternates'
+# cask 'caskroom/fonts/font-montserrat-subrayada'
+# cask 'caskroom/fonts/font-montserrat'
+# cask 'caskroom/fonts/font-moul'
+# cask 'caskroom/fonts/font-moulpali'
+# cask 'caskroom/fonts/font-mountains-of-christmas'
+# cask 'caskroom/fonts/font-mouse-memoirs'
+# cask 'caskroom/fonts/font-mr-bedfort'
+# cask 'caskroom/fonts/font-mr-dafoe'
+# cask 'caskroom/fonts/font-mr-de-haviland'
+# cask 'caskroom/fonts/font-mrs-saint-delafield'
+# cask 'caskroom/fonts/font-mrs-sheppards'
+# cask 'caskroom/fonts/font-mukti-narrow'
+# cask 'caskroom/fonts/font-muli'
+# cask 'caskroom/fonts/font-myrica'
+# cask 'caskroom/fonts/font-myricam'
+# cask 'caskroom/fonts/font-mystery-quest'
+# cask 'caskroom/fonts/font-n-gage'
+# cask 'caskroom/fonts/font-namdhinggo-sil'
+# cask 'caskroom/fonts/font-nanumgothic'
+# cask 'caskroom/fonts/font-nanumgothiccoding'
+# cask 'caskroom/fonts/font-nanummyeongjo'
+# cask 'caskroom/fonts/font-neucha'
+# cask 'caskroom/fonts/font-neuton'
+# cask 'caskroom/fonts/font-new-athena-unicode'
+# cask 'caskroom/fonts/font-new-rocker'
+# cask 'caskroom/fonts/font-news-cycle'
+# cask 'caskroom/fonts/font-nexa'
+# cask 'caskroom/fonts/font-niconne'
+# cask 'caskroom/fonts/font-nika'
+# cask 'caskroom/fonts/font-nixie-one'
+# cask 'caskroom/fonts/font-nobile'
+# cask 'caskroom/fonts/font-nokora'
+# cask 'caskroom/fonts/font-norican'
+# cask 'caskroom/fonts/font-norwester'
+# cask 'caskroom/fonts/font-nosifer'
+# cask 'caskroom/fonts/font-nothing-you-could-do'
+# cask 'caskroom/fonts/font-noticia-text'
+# cask 'caskroom/fonts/font-noto-color-emoji'
+# cask 'caskroom/fonts/font-noto-emoji'
+# cask 'caskroom/fonts/font-noto-kufi-arabic'
+# cask 'caskroom/fonts/font-noto-mono'
+# cask 'caskroom/fonts/font-noto-naskh-arabic'
+# cask 'caskroom/fonts/font-noto-nastaliq-urdu'
+# cask 'caskroom/fonts/font-noto-sans-armenian'
+# cask 'caskroom/fonts/font-noto-sans-avestan'
+# cask 'caskroom/fonts/font-noto-sans-balinese'
+# cask 'caskroom/fonts/font-noto-sans-bamum'
+# cask 'caskroom/fonts/font-noto-sans-batak'
+# cask 'caskroom/fonts/font-noto-sans-bengali'
+# cask 'caskroom/fonts/font-noto-sans-brahmi'
+# cask 'caskroom/fonts/font-noto-sans-buginese'
+# cask 'caskroom/fonts/font-noto-sans-buhid'
+# cask 'caskroom/fonts/font-noto-sans-canadian-aboriginal'
+# cask 'caskroom/fonts/font-noto-sans-carian'
+# cask 'caskroom/fonts/font-noto-sans-cham'
+# cask 'caskroom/fonts/font-noto-sans-cherokee'
+# cask 'caskroom/fonts/font-noto-sans-cjk-jp'
+# cask 'caskroom/fonts/font-noto-sans-cjk-kr'
+# cask 'caskroom/fonts/font-noto-sans-cjk-sc'
+# cask 'caskroom/fonts/font-noto-sans-cjk-tc'
+# cask 'caskroom/fonts/font-noto-sans-cjk'
+# cask 'caskroom/fonts/font-noto-sans-coptic'
+# cask 'caskroom/fonts/font-noto-sans-cuneiform'
+# cask 'caskroom/fonts/font-noto-sans-cypriot'
+# cask 'caskroom/fonts/font-noto-sans-deseret'
+# cask 'caskroom/fonts/font-noto-sans-devanagari'
+# cask 'caskroom/fonts/font-noto-sans-egyptian-hieroglyphs'
+# cask 'caskroom/fonts/font-noto-sans-ethiopic'
+# cask 'caskroom/fonts/font-noto-sans-georgian'
+# cask 'caskroom/fonts/font-noto-sans-glagolitic'
+# cask 'caskroom/fonts/font-noto-sans-gothic'
+# cask 'caskroom/fonts/font-noto-sans-gujarati'
+# cask 'caskroom/fonts/font-noto-sans-gurmukhi'
+# cask 'caskroom/fonts/font-noto-sans-hanunoo'
+# cask 'caskroom/fonts/font-noto-sans-hecask'
+# cask 'caskroom/fonts/font-noto-sans-imperial-aramaic'
+# cask 'caskroom/fonts/font-noto-sans-inscriptional-pahlavi'
+# cask 'caskroom/fonts/font-noto-sans-inscriptional-parthian'
+# cask 'caskroom/fonts/font-noto-sans-javanese'
+# cask 'caskroom/fonts/font-noto-sans-kaithi'
+# cask 'caskroom/fonts/font-noto-sans-kannada'
+# cask 'caskroom/fonts/font-noto-sans-kayah-li'
+# cask 'caskroom/fonts/font-noto-sans-kharoshthi'
+# cask 'caskroom/fonts/font-noto-sans-khmer'
+# cask 'caskroom/fonts/font-noto-sans-lao'
+# cask 'caskroom/fonts/font-noto-sans-lepcha'
+# cask 'caskroom/fonts/font-noto-sans-limbu'
+# cask 'caskroom/fonts/font-noto-sans-linear-b'
+# cask 'caskroom/fonts/font-noto-sans-lisu'
+# cask 'caskroom/fonts/font-noto-sans-lycian'
+# cask 'caskroom/fonts/font-noto-sans-lydian'
+# cask 'caskroom/fonts/font-noto-sans-malayalam'
+# cask 'caskroom/fonts/font-noto-sans-mandaic'
+# cask 'caskroom/fonts/font-noto-sans-meetei-mayek'
+# cask 'caskroom/fonts/font-noto-sans-mongolian'
+# cask 'caskroom/fonts/font-noto-sans-myanmar'
+# cask 'caskroom/fonts/font-noto-sans-n-ko'
+# cask 'caskroom/fonts/font-noto-sans-new-tai-lue'
+# cask 'caskroom/fonts/font-noto-sans-ogham'
+# cask 'caskroom/fonts/font-noto-sans-ol-chiki'
+# cask 'caskroom/fonts/font-noto-sans-old-italic'
+# cask 'caskroom/fonts/font-noto-sans-old-persian'
+# cask 'caskroom/fonts/font-noto-sans-old-south-arabian'
+# cask 'caskroom/fonts/font-noto-sans-old-turkic'
+# cask 'caskroom/fonts/font-noto-sans-oriya'
+# cask 'caskroom/fonts/font-noto-sans-osmanya'
+# cask 'caskroom/fonts/font-noto-sans-phags-pa'
+# cask 'caskroom/fonts/font-noto-sans-phoenician'
+# cask 'caskroom/fonts/font-noto-sans-rejang'
+# cask 'caskroom/fonts/font-noto-sans-runic'
+# cask 'caskroom/fonts/font-noto-sans-samaritan'
+# cask 'caskroom/fonts/font-noto-sans-saurashtra'
+# cask 'caskroom/fonts/font-noto-sans-shavian'
+# cask 'caskroom/fonts/font-noto-sans-sinhala'
+# cask 'caskroom/fonts/font-noto-sans-sundanese'
+# cask 'caskroom/fonts/font-noto-sans-syloti-nagri'
+# cask 'caskroom/fonts/font-noto-sans-symbols'
+# cask 'caskroom/fonts/font-noto-sans-syriac-eastern'
+# cask 'caskroom/fonts/font-noto-sans-syriac-estrangela'
+# cask 'caskroom/fonts/font-noto-sans-syriac-western'
+# cask 'caskroom/fonts/font-noto-sans-tagalog'
+# cask 'caskroom/fonts/font-noto-sans-tagbanwa'
+# cask 'caskroom/fonts/font-noto-sans-tai-le'
+# cask 'caskroom/fonts/font-noto-sans-tai-tham'
+# cask 'caskroom/fonts/font-noto-sans-tai-viet'
+# cask 'caskroom/fonts/font-noto-sans-tamil'
+# cask 'caskroom/fonts/font-noto-sans-telugu'
+# cask 'caskroom/fonts/font-noto-sans-thaana'
+# cask 'caskroom/fonts/font-noto-sans-thai'
+# cask 'caskroom/fonts/font-noto-sans-tibetan'
+# cask 'caskroom/fonts/font-noto-sans-tifinagh'
+# cask 'caskroom/fonts/font-noto-sans-ugaritic'
+# cask 'caskroom/fonts/font-noto-sans-vai'
+# cask 'caskroom/fonts/font-noto-sans-yi'
+# cask 'caskroom/fonts/font-noto-sans'
+# cask 'caskroom/fonts/font-noto-serif-armenian'
+# cask 'caskroom/fonts/font-noto-serif-georgian'
+# cask 'caskroom/fonts/font-noto-serif-khmer'
+# cask 'caskroom/fonts/font-noto-serif-lao'
+# cask 'caskroom/fonts/font-noto-serif-thai'
+# cask 'caskroom/fonts/font-noto-serif'
+# cask 'caskroom/fonts/font-nova-cut'
+# cask 'caskroom/fonts/font-nova-flat'
+# cask 'caskroom/fonts/font-nova-mono'
+# cask 'caskroom/fonts/font-nova-oval'
+# cask 'caskroom/fonts/font-nova-round'
+# cask 'caskroom/fonts/font-nova-script'
+# cask 'caskroom/fonts/font-nova-slim'
+# cask 'caskroom/fonts/font-nova-square'
+# cask 'caskroom/fonts/font-numans'
+# cask 'caskroom/fonts/font-nunito'
+# cask 'caskroom/fonts/font-nyashi'
+# cask 'caskroom/fonts/font-ocra'
+# cask 'caskroom/fonts/font-octicons'
+# cask 'caskroom/fonts/font-odor-mean-chey'
+# cask 'caskroom/fonts/font-office-code-pro'
+# cask 'caskroom/fonts/font-offside'
+# cask 'caskroom/fonts/font-old-standard-tt'
+# cask 'caskroom/fonts/font-oldenburg'
+# cask 'caskroom/fonts/font-oleo-script-swash-caps'
+# cask 'caskroom/fonts/font-oleo-script'
+# cask 'caskroom/fonts/font-open-iconic'
+# cask 'caskroom/fonts/font-open-sans-condensed'
+# cask 'caskroom/fonts/font-open-sans-hecask-condensed'
+# cask 'caskroom/fonts/font-open-sans-hecask'
+# cask 'caskroom/fonts/font-open-sans'
+# cask 'caskroom/fonts/font-opendyslexic'
+# cask 'caskroom/fonts/font-oranienbaum'
+# cask 'caskroom/fonts/font-orbitron'
+# cask 'caskroom/fonts/font-oregano'
+# cask 'caskroom/fonts/font-orienta'
+# cask 'caskroom/fonts/font-original-surfer'
+# cask 'caskroom/fonts/font-oskiblackfoot'
+# cask 'caskroom/fonts/font-oskidakelh'
+# cask 'caskroom/fonts/font-oskidenea'
+# cask 'caskroom/fonts/font-oskideneb'
+# cask 'caskroom/fonts/font-oskidenec'
+# cask 'caskroom/fonts/font-oskidenes'
+# cask 'caskroom/fonts/font-oskieast'
+# cask 'caskroom/fonts/font-oskiwest'
+# cask 'caskroom/fonts/font-oswald'
+# cask 'caskroom/fonts/font-over-the-rainbow'
+# cask 'caskroom/fonts/font-overlock-sc'
+# cask 'caskroom/fonts/font-overlock'
+# cask 'caskroom/fonts/font-overpass'
+# cask 'caskroom/fonts/font-ovo'
+# cask 'caskroom/fonts/font-oxygen-mono'
+# cask 'caskroom/fonts/font-oxygen'
+# cask 'caskroom/fonts/font-pacifico'
+# cask 'caskroom/fonts/font-padauk'
+# cask 'caskroom/fonts/font-palemonas'
+# cask 'caskroom/fonts/font-paprika'
+# cask 'caskroom/fonts/font-parastoo'
+# cask 'caskroom/fonts/font-parisienne'
+# cask 'caskroom/fonts/font-passero-one'
+# cask 'caskroom/fonts/font-passion-one'
+# cask 'caskroom/fonts/font-pathway-gothic-one'
+# cask 'caskroom/fonts/font-patrick-hand-sc'
+# cask 'caskroom/fonts/font-patrick-hand'
+# cask 'caskroom/fonts/font-patua-one'
+# cask 'caskroom/fonts/font-paytone-one'
+# cask 'caskroom/fonts/font-pecita'
+# cask 'caskroom/fonts/font-penuturesu'
+# cask 'caskroom/fonts/font-peralta'
+# cask 'caskroom/fonts/font-permanent-marker'
+# cask 'caskroom/fonts/font-petit-formal-script'
+# cask 'caskroom/fonts/font-petrona'
+# cask 'caskroom/fonts/font-phetsarath'
+# cask 'caskroom/fonts/font-philosopher'
+# cask 'caskroom/fonts/font-piedra'
+# cask 'caskroom/fonts/font-pinyon-script'
+# cask 'caskroom/fonts/font-pirata-one'
+# cask 'caskroom/fonts/font-pitabek'
+# cask 'caskroom/fonts/font-plaster'
+# cask 'caskroom/fonts/font-play'
+# cask 'caskroom/fonts/font-playball'
+# cask 'caskroom/fonts/font-playfair-display-sc'
+# cask 'caskroom/fonts/font-playfair-display'
+# cask 'caskroom/fonts/font-podkova'
+# cask 'caskroom/fonts/font-poetsenone'
+# cask 'caskroom/fonts/font-poiret-one'
+# cask 'caskroom/fonts/font-poller-one'
+# cask 'caskroom/fonts/font-poly'
+# cask 'caskroom/fonts/font-pompiere'
+# cask 'caskroom/fonts/font-pontano-sans'
+# cask 'caskroom/fonts/font-poppins'
+# cask 'caskroom/fonts/font-port-lligat-sans'
+# cask 'caskroom/fonts/font-port-lligat-slab'
+# cask 'caskroom/fonts/font-prata'
+# cask 'caskroom/fonts/font-preahvihear'
+# cask 'caskroom/fonts/font-press-start2p'
+# cask 'caskroom/fonts/font-prime'
+# cask 'caskroom/fonts/font-prince-valiant'
+# cask 'caskroom/fonts/font-princess-sofia'
+# cask 'caskroom/fonts/font-prociono'
+# cask 'caskroom/fonts/font-profontx'
+# cask 'caskroom/fonts/font-prosto-one'
+# cask 'caskroom/fonts/font-pt-mono'
+# cask 'caskroom/fonts/font-pt-sans'
+# cask 'caskroom/fonts/font-pt-serif'
+# cask 'caskroom/fonts/font-puritan'
+# cask 'caskroom/fonts/font-purple-purse'
+# cask 'caskroom/fonts/font-qataban'
+# cask 'caskroom/fonts/font-quando'
+# cask 'caskroom/fonts/font-quantico'
+# cask 'caskroom/fonts/font-quattrocento-sans'
+# cask 'caskroom/fonts/font-quattrocento'
+# cask 'caskroom/fonts/font-questrial'
+# cask 'caskroom/fonts/font-quicksand'
+# cask 'caskroom/fonts/font-quintessential'
+# cask 'caskroom/fonts/font-quivira'
+# cask 'caskroom/fonts/font-qwigley'
+# cask 'caskroom/fonts/font-racing-sans-one'
+# cask 'caskroom/fonts/font-radley'
+# cask 'caskroom/fonts/font-rajdhani'
+# cask 'caskroom/fonts/font-raleway-dots'
+# cask 'caskroom/fonts/font-raleway'
+# cask 'caskroom/fonts/font-rambla'
+# cask 'caskroom/fonts/font-rammetto-one'
+# cask 'caskroom/fonts/font-ranchers'
+# cask 'caskroom/fonts/font-rancho'
+# cask 'caskroom/fonts/font-rationale'
+# cask 'caskroom/fonts/font-red-october'
+# cask 'caskroom/fonts/font-redacted'
+# cask 'caskroom/fonts/font-redressed'
+# cask 'caskroom/fonts/font-reenie-beanie'
+# cask 'caskroom/fonts/font-revalia'
+# cask 'caskroom/fonts/font-ribeye-marrow'
+# cask 'caskroom/fonts/font-ribeye'
+# cask 'caskroom/fonts/font-ricty-diminished'
+# cask 'caskroom/fonts/font-righteous'
+# cask 'caskroom/fonts/font-risque'
+# cask 'caskroom/fonts/font-roboto-condensed'
+# cask 'caskroom/fonts/font-roboto-mono-for-powerline'
+# cask 'caskroom/fonts/font-roboto-mono'
+# cask 'caskroom/fonts/font-roboto-slab'
+# cask 'caskroom/fonts/font-roboto'
+# cask 'caskroom/fonts/font-rochester'
+# cask 'caskroom/fonts/font-rock-salt'
+# cask 'caskroom/fonts/font-rokkitt'
+# cask 'caskroom/fonts/font-romanesco'
+# cask 'caskroom/fonts/font-ropa-sans'
+# cask 'caskroom/fonts/font-rosario'
+# cask 'caskroom/fonts/font-rosarivo'
+# cask 'caskroom/fonts/font-rotinonhsonni-sans'
+# cask 'caskroom/fonts/font-rotinonhsonni-serif'
+# cask 'caskroom/fonts/font-rouge-script'
+# cask 'caskroom/fonts/font-rounded-m-plus'
+# cask 'caskroom/fonts/font-rozha-one'
+# cask 'caskroom/fonts/font-ruda'
+# cask 'caskroom/fonts/font-rufina'
+# cask 'caskroom/fonts/font-ruge-boogie'
+# cask 'caskroom/fonts/font-ruluko'
+# cask 'caskroom/fonts/font-rum-raisin'
+# cask 'caskroom/fonts/font-rupakara'
+# cask 'caskroom/fonts/font-ruslan-display'
+# cask 'caskroom/fonts/font-russo-one'
+# cask 'caskroom/fonts/font-ruthie'
+# cask 'caskroom/fonts/font-rye'
+# cask 'caskroom/fonts/font-sacramento'
+# cask 'caskroom/fonts/font-sadagolthina'
+# cask 'caskroom/fonts/font-sail'
+# cask 'caskroom/fonts/font-salsa'
+# cask 'caskroom/fonts/font-samim'
+# cask 'caskroom/fonts/font-sanchez'
+# cask 'caskroom/fonts/font-sancreek'
+# cask 'caskroom/fonts/font-sansita-one'
+# cask 'caskroom/fonts/font-sarina'
+# cask 'caskroom/fonts/font-sarpanch'
+# cask 'caskroom/fonts/font-satisfy'
+# cask 'caskroom/fonts/font-scada'
+# cask 'caskroom/fonts/font-scheherazade'
+# cask 'caskroom/fonts/font-schoolbell'
+# cask 'caskroom/fonts/font-seaweed-script'
+# cask 'caskroom/fonts/font-seoulhangang'
+# cask 'caskroom/fonts/font-seoulhangangcondensed'
+# cask 'caskroom/fonts/font-sevillana'
+# cask 'caskroom/fonts/font-seymour-one'
+# cask 'caskroom/fonts/font-shabnam'
+# cask 'caskroom/fonts/font-shadows-into-light-two'
+# cask 'caskroom/fonts/font-shadows-into-light'
+# cask 'caskroom/fonts/font-shanti'
+# cask 'caskroom/fonts/font-share-tech-mono'
+# cask 'caskroom/fonts/font-share-tech'
+# cask 'caskroom/fonts/font-share'
+# cask 'caskroom/fonts/font-shojumaru'
+# cask 'caskroom/fonts/font-short-stack'
+# cask 'caskroom/fonts/font-siemreap'
+# cask 'caskroom/fonts/font-sigmar-one'
+# cask 'caskroom/fonts/font-signika-negative'
+# cask 'caskroom/fonts/font-signika'
+# cask 'caskroom/fonts/font-silent-lips'
+# cask 'caskroom/fonts/font-simonetta'
+# cask 'caskroom/fonts/font-sinkin-sans'
+# cask 'caskroom/fonts/font-sintony'
+# cask 'caskroom/fonts/font-sirin-stencil'
+# cask 'caskroom/fonts/font-six-caps'
+# cask 'caskroom/fonts/font-skola-sans'
+# cask 'caskroom/fonts/font-skranji'
+# cask 'caskroom/fonts/font-slackey'
+# cask 'caskroom/fonts/font-smokum'
+# cask 'caskroom/fonts/font-smythe'
+# cask 'caskroom/fonts/font-sniglet'
+# cask 'caskroom/fonts/font-snippet'
+# cask 'caskroom/fonts/font-snowburst-one'
+# cask 'caskroom/fonts/font-sofadi-one'
+# cask 'caskroom/fonts/font-sofia'
+# cask 'caskroom/fonts/font-sonsie-one'
+# cask 'caskroom/fonts/font-sorts-mill-goudy'
+# cask 'caskroom/fonts/font-source-code-pro-for-powerline'
+# cask 'caskroom/fonts/font-source-code-pro'
+# cask 'caskroom/fonts/font-source-han-code-jp'
+# cask 'caskroom/fonts/font-source-han-sans'
+# cask 'caskroom/fonts/font-source-sans-pro'
+# cask 'caskroom/fonts/font-source-serif-pro'
+# cask 'caskroom/fonts/font-space-mono'
+# cask 'caskroom/fonts/font-special-elite'
+# cask 'caskroom/fonts/font-spicy-rice'
+# cask 'caskroom/fonts/font-spinnaker'
+# cask 'caskroom/fonts/font-spirax'
+# cask 'caskroom/fonts/font-squada-one'
+# cask 'caskroom/fonts/font-stalemate'
+# cask 'caskroom/fonts/font-stalinist-one'
+# cask 'caskroom/fonts/font-stardos-stencil'
+# cask 'caskroom/fonts/font-stint-ultra-condensed'
+# cask 'caskroom/fonts/font-stint-ultra-expanded'
+# cask 'caskroom/fonts/font-stoke'
+# cask 'caskroom/fonts/font-strait'
+# cask 'caskroom/fonts/font-stroke'
+# cask 'caskroom/fonts/font-sue-ellen-francisco'
+# cask 'caskroom/fonts/font-sunshiney'
+# cask 'caskroom/fonts/font-supermercado-one'
+# cask 'caskroom/fonts/font-swanky-and-moo-moo'
+# cask 'caskroom/fonts/font-symbola'
+# cask 'caskroom/fonts/font-syncopate'
+# cask 'caskroom/fonts/font-tai-le-valentinium'
+# cask 'caskroom/fonts/font-takaoex'
+# cask 'caskroom/fonts/font-tangerine'
+# cask 'caskroom/fonts/font-taprom'
+# cask 'caskroom/fonts/font-tauri'
+# cask 'caskroom/fonts/font-teko'
+# cask 'caskroom/fonts/font-telex'
+# cask 'caskroom/fonts/font-tenor-sans'
+# cask 'caskroom/fonts/font-terminus'
+# cask 'caskroom/fonts/font-tex-gyre-adventor'
+# cask 'caskroom/fonts/font-tex-gyre-bonum'
+# cask 'caskroom/fonts/font-tex-gyre-chorus'
+# cask 'caskroom/fonts/font-tex-gyre-cursor'
+# cask 'caskroom/fonts/font-tex-gyre-heros'
+# cask 'caskroom/fonts/font-tex-gyre-pagella-math'
+# cask 'caskroom/fonts/font-tex-gyre-pagella'
+# cask 'caskroom/fonts/font-tex-gyre-schola'
+# cask 'caskroom/fonts/font-tex-gyre-termes'
+# cask 'caskroom/fonts/font-text-me-one'
+# cask 'caskroom/fonts/font-thabit'
+# cask 'caskroom/fonts/font-the-girl-next-door'
+# cask 'caskroom/fonts/font-tibetan-machine-uni'
+# cask 'caskroom/fonts/font-tienne'
+# cask 'caskroom/fonts/font-tillana'
+# cask 'caskroom/fonts/font-times-new-roman'
+# cask 'caskroom/fonts/font-tinos'
+# cask 'caskroom/fonts/font-titan-one'
+# cask 'caskroom/fonts/font-titillium-web'
+# cask 'caskroom/fonts/font-trade-winds'
+# cask 'caskroom/fonts/font-trebuchet-ms'
+# cask 'caskroom/fonts/font-trocchi'
+# cask 'caskroom/fonts/font-trochut'
+# cask 'caskroom/fonts/font-trykker'
+# cask 'caskroom/fonts/font-tuffy'
+# cask 'caskroom/fonts/font-tulpen-one'
+# cask 'caskroom/fonts/font-twitter-color-emoji'
+# cask 'caskroom/fonts/font-ubuntu-mono-derivative-powerline'
+# cask 'caskroom/fonts/font-ubuntu'
+# cask 'caskroom/fonts/font-ultra'
+# cask 'caskroom/fonts/font-uncial-antiqua'
+# cask 'caskroom/fonts/font-underdog'
+# cask 'caskroom/fonts/font-unica-one'
+# cask 'caskroom/fonts/font-unifrakturcook'
+# cask 'caskroom/fonts/font-unifrakturmaguntia'
+# cask 'caskroom/fonts/font-unkempt'
+# cask 'caskroom/fonts/font-unlock'
+# cask 'caskroom/fonts/font-unna'
+# cask 'caskroom/fonts/font-vampiro-one'
+# cask 'caskroom/fonts/font-varela-round'
+# cask 'caskroom/fonts/font-varela'
+# cask 'caskroom/fonts/font-vast-shadow'
+# cask 'caskroom/fonts/font-vazir-code'
+# cask 'caskroom/fonts/font-vazir'
+# cask 'caskroom/fonts/font-verdana'
+# cask 'caskroom/fonts/font-vibur'
+# cask 'caskroom/fonts/font-vidaloka'
+# cask 'caskroom/fonts/font-viga'
+# cask 'caskroom/fonts/font-voces'
+# cask 'caskroom/fonts/font-volkhov'
+# cask 'caskroom/fonts/font-vollkorn'
+# cask 'caskroom/fonts/font-voltaire'
+# cask 'caskroom/fonts/font-vt323'
+# cask 'caskroom/fonts/font-waiting-for-the-sunrise'
+# cask 'caskroom/fonts/font-wakor'
+# cask 'caskroom/fonts/font-wallpoet'
+# cask 'caskroom/fonts/font-walter-turncoat'
+# cask 'caskroom/fonts/font-waltograph'
+# cask 'caskroom/fonts/font-warnes'
+# cask 'caskroom/fonts/font-webdings'
+# cask 'caskroom/fonts/font-wellfleet'
+# cask 'caskroom/fonts/font-wendy-one'
+# cask 'caskroom/fonts/font-wenquanyi-micro-hei-lite'
+# cask 'caskroom/fonts/font-wenquanyi-micro-hei'
+# cask 'caskroom/fonts/font-wenquanyi-zen-hei'
+# cask 'caskroom/fonts/font-wire-one'
+# cask 'caskroom/fonts/font-work-sans'
+# cask 'caskroom/fonts/font-xits'
+# cask 'caskroom/fonts/font-yanone-kaffeesatz'
+# cask 'caskroom/fonts/font-yellowtail'
+# cask 'caskroom/fonts/font-yeseva-one'
+# cask 'caskroom/fonts/font-yesteryear'
+# cask 'caskroom/fonts/font-zeyada'
 
 ########################### TODO ############################################
 
 ## Utility-Related
 
 # Alfred: boost your efficiency with hotkeys, keywords, text expansion, etc.
-brew 'alfred'
+# brew 'alfred'
 
 ## Serializers
 
 # Protocol buffers for serializing structured data; compare thrift.
-brew 'protobuf'
-brew 'protobuf-c'
+# brew 'protobuf'
+# brew 'protobuf-c'
 
 # Thrift network serialization protocol; compare protobuf.
-brew 'thrift'
+# brew 'thrift'
 
 ## Tools
 
 # Ansible is a simple way to automate apps and IT infrastructure.
-brew 'ansible'
+# brew 'ansible'
