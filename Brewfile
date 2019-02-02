@@ -74,13 +74,13 @@
 ##
 
 # Firefox web browser
-cask 'firefox'
+# cask 'firefox'
 
 # Google Chrome web browser
-cask 'google-chrome'
+# cask 'google-chrome'
 
 # Opera web browser
-cask 'opera'
+# cask 'opera'
 
 ##
 # Passwords
@@ -93,10 +93,10 @@ cask 'opera'
 # brew 'keybase'
 
 # 1password is a password manager
-cask '1password'
+# cask '1password'
 
 # LastPass is a password manager
-# cask 'lastpass'
+cask 'lastpass'
 
 ##
 # Terminals
@@ -416,7 +416,7 @@ brew 'grep'
 ##
 
 # Google Chrome web browser
-cask 'google-chrome'
+# cask 'google-chrome'
 
 # Google Drive cloud file storage
 cask 'google-drive'
@@ -438,6 +438,9 @@ cask 'google-drive'
 
 # TDB
 # cask 'google-web-designer'
+
+# TDB
+ cask 'google-photos'
 
 
 ##################### TODO ####################################
@@ -487,14 +490,14 @@ cask 'google-drive'
 ## Server-Related
 
 # Docker software containers to help distribute applications.
-brew 'docker'
-brew 'boot2docker'
+# brew 'docker'
+# brew 'boot2docker'
 
 # Compose is a tool for defining and running multi-container Docker applications.
-brew 'docker-compose'
+# brew 'docker-compose'
 
 # Docker Machine installs Docker Engine on virtual hosts, and manages the hosts.
-brew 'docker-machine'
+# brew 'docker-machine'
 
 # Consul tool for discovering and configuring services in your infrastructure
 # brew 'consul'
@@ -727,7 +730,7 @@ cask 'android-file-transfer'
 # cask 'basecamp'
 
 # TDB
-cask 'beacon-scanner'
+# cask 'beacon-scanner'
 
 # TDB
 # cask 'blender'
@@ -775,10 +778,10 @@ cask 'caffeine'
 # cask 'easysimbl'
 
 # TDB
-cask 'evernote'
+# cask 'evernote'
 
 # FileZilla FTP client
-cask 'filezilla'
+# cask 'filezilla'
 
 # TDB
 # cask 'fluid'
@@ -816,16 +819,16 @@ cask 'flux'
 # cask 'hipchat'
 
 # TDB
-cask 'iterm2'
+# cask 'iterm2'
 
 # TDB
-cask 'joinme'
+# cask 'joinme'
 
 # TDB
-cask 'jumpcut'
+# cask 'jumpcut'
 
 # Kindle book reader by Amazon
-cask 'kindle'
+# cask 'kindle'
 
 # TDB
 # cask 'krita'
@@ -1384,7 +1387,7 @@ cask 'vlc'
 # brew 'mod_wsgi'
 # brew 'mogenerator'
 # brew 'monetdb'
-brew 'mongoose'
+# brew 'mongoose'
 # brew 'mongrel2'
 # brew 'monotone'
 # brew 'montage'
@@ -1482,7 +1485,7 @@ brew 'node'
 # brew 'nrpe'
 # brew 'nspr'
 # brew 'nss'
-brew 'ntfs-3g'
+# brew 'ntfs-3g'
 # brew 'ntl'
 # brew 'nu'
 # brew 'num-utils'
@@ -2124,6 +2127,7 @@ brew 'ntfs-3g'
 # brew 'wait_on'
 # brew 'wakeonlan'
 # brew 'watch'
+brew 'watchman'
 # brew 'wavpack'
 # brew 'wbox'
 # brew 'wdfs'
@@ -2380,7 +2384,7 @@ mas 'Slack', id: 803453959
 # brew link cmake; cask 'wireshark --with-qt'
 
 # Wireshark-chmodbft enables regular users to capture network packets.
-cask 'wireshark-chmodbpf'
+# cask 'wireshark-chmodbpf'
 
 # Charles web debugging proxy
 # cask 'charles'
@@ -2393,14 +2397,14 @@ cask 'wireshark-chmodbpf'
 ##
 
 # Docker assembles applications from components.
-cask 'docker'
+# cask 'docker'
 
 # Vagrant creates and configures portable development environments.
-cask 'vagrant'
-cask 'vagrant-manager'
+# cask 'vagrant'
+# cask 'vagrant-manager'
 
 # VirtualBox creates and configures portable development environments, by Oracle.
-cask 'virtualbox'
+# cask 'virtualbox'
 
 # Terraform common configuration to launch infrastructure.
 # brew 'terraform'
@@ -2440,7 +2444,7 @@ cask 'virtualbox'
 # brew 'hadoop'
 
 # MariaDB database; prefer this over MySQL.
-brew 'mariadb'
+# brew 'mariadb'
 
 # MongoDB database.
 # brew 'mongodb'
@@ -2573,7 +2577,7 @@ brew 'mariadb'
 ## Java
 
 # Java programming language
-cask 'java'
+# cask 'java'
 
 # Gradle is a Java build tool
 # brew 'gradle'
@@ -2588,7 +2592,7 @@ cask 'java'
 # brew 'jetty'
 
 # Apache Tomcat implements Java Servlet and JavaServer Pages technologies.
-brew 'tomcat'
+# brew 'tomcat'
 
 # Glassfish application server.
 # brew 'glassfish'
@@ -2630,7 +2634,7 @@ brew 'python3'
 ## R
 
 # R programming language, esp. for statistics.
-# brew 'r'
+brew 'r'
 
 ## Ruby
 
@@ -2701,7 +2705,7 @@ brew 'heroku'
 ##
 
 # Xquarts
-# cask 'xquartz'
+cask 'xquartz'
 
 # Tap GUI
 # brew tap homebrew/gui
@@ -2889,10 +2893,10 @@ cask 'wireshark'
 ## Deployments
 
 # Vagrant lightweight, reproducible, portable development environments
-cask 'vagrant'
+# cask 'vagrant'
 
 # Heroku hosting utilities
-cask 'heroku-toolbelt'
+# cask 'heroku-toolbelt'
 
 ##
 # Fonts
@@ -3958,7 +3962,7 @@ cask 'heroku-toolbelt'
 ## Utility-Related
 
 # Alfred: boost your efficiency with hotkeys, keywords, text expansion, etc.
-# brew 'alfred'
+brew 'alfred'
 
 ## Serializers
 
@@ -3973,3 +3977,4 @@ cask 'heroku-toolbelt'
 
 # Ansible is a simple way to automate apps and IT infrastructure.
 # brew 'ansible'
+
