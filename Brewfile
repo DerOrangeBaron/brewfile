@@ -59,6 +59,12 @@
 #
 # ## Tracking
 #
+# * Package: https://github.com/DerOrangeBaron/brewfile
+# * Version: 0.2.1
+# * Updated: 2019-02-07
+# * License: GPL
+# * Contact: Nicolas Lopez (mail@nicolaslopez.uy)
+#
 # * Package: https://github.com/joelparkerhenderson/brewfile
 # * Version: 0.2.0
 # * Created: 2017-01-01
@@ -66,6 +72,15 @@
 # * License: GPL
 # * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
 ##
+
+##
+# First of all
+#
+# Caffeine. I use caffeine to disable computer's automatic sleep.
+##
+
+# TDB
+cask 'caffeine'
 
 ##
 # Browsers
@@ -96,7 +111,7 @@
 # cask '1password'
 
 # LastPass is a password manager
-cask 'lastpass'
+# cask 'lastpass'
 
 ##
 # Terminals
@@ -223,7 +238,7 @@ brew 'cvs'
 #
 # TODO: why do we need brew 'git' and also cask 'git'?
 brew 'git'
-cask 'git'
+#cask 'git'
 
 # Git Large File Storage
 brew 'git-lfs'
@@ -741,8 +756,7 @@ cask 'android-file-transfer'
 # TDB
 # cask 'cactus'
 
-# TDB
-cask 'caffeine'
+
 
 # TDB
 # cask 'calibre'
@@ -2247,7 +2261,7 @@ brew 'watchman'
 # cask 'displaylink'
 
 # Java language for running many applications
-cask 'java'
+# cask 'java'
 
 # Karabiner remaps keyboard keys
 # cask 'karabiner'
@@ -2278,9 +2292,10 @@ cask 'java'
 
 ## Mac App Store
 
-mas 'Numbers', id: 409203825
+#mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Slack', id: 803453959
+mas 'whatsapp-desktop', id: 1147396723
 # mas 'Sip', id: 507257563
 # mas 'Simplenote', id: 692867256
 # mas 'Todoist', id: 585829637
@@ -3977,4 +3992,3 @@ brew 'alfred'
 
 # Ansible is a simple way to automate apps and IT infrastructure.
 # brew 'ansible'
-
